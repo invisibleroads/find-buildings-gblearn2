@@ -1,0 +1,9 @@
+[parameters]
+classifier name = train2
+scan ratio = 2
+
+[patch3]
+region name = patch3
+
+[test2]
+region name = test

@@ -1,0 +1,1 @@
+rm -Rf 1-images/ 2-regions/ 3-windows/ 4-datasets/ 5-classifiers/ 6-probabilities/ 7-locations/ 8-patches/ 9-results/

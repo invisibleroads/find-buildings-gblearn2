@@ -1,0 +1,16 @@
+[parameters]
+feature module name = feature_cnn
+ratio range = 2 3
+kernel range = 10 9 8 7 6 5 4 3 2
+which layer combination = 0
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+hidden count = 20
+iteration count = 3
+dataset name = image1245
+
+[image1245]
+feature class name = NormalizedFiveStackedFeatureSet
+connection table0 path = files/FiveStackedFeatureSet0.map
+connection table1 path = files/FiveStackedFeatureSet1.map

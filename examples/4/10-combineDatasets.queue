@@ -1,0 +1,8 @@
+[parameters]
+training size = 100
+test size = 20
+positive fraction = 0.5
+
+[koraro 2006]
+window names = 
+    koraro 2006 3 partial

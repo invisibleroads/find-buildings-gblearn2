@@ -1,0 +1,8 @@
+[parameters]
+training size = 50000
+test size = 10000
+# positive fraction = 0.2
+
+[train]
+window names = 
+    train

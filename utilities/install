@@ -1,0 +1,20 @@
+if [ ! -e $HOME/bin ]; then
+    mkdir $HOME/bin
+fi
+echo "python `pwd`/browseSamples.py \$1 \$2" > $HOME/bin/browseSamples
+echo "python `pwd`/connectLayers.py \$1 \$2" > $HOME/bin/connectLayers
+echo "python `pwd`/combineDatasets.py \$1 \$2" > $HOME/bin/combineDatasets
+echo "python `pwd`/clusterProbabilities.py \$1 \$2" > $HOME/bin/clusterProbabilities
+echo "python `pwd`/defineRegions.py \$1 \$2" > $HOME/bin/defineRegions
+echo "python `pwd`/registerImages.py \$1 \$2" > $HOME/bin/registerImages
+echo "python `pwd`/sampleWindows.py \$1 \$2" > $HOME/bin/sampleWindows
+echo "python `pwd`/extractWindows.py \$1 \$2" > $HOME/bin/extractWindows
+echo "python `pwd`/scanImages.py \$1 \$2" > $HOME/bin/scanImages
+echo "python `pwd`/scanRegions.py \$1 \$2" > $HOME/bin/scanRegions
+echo "python `pwd`/trainClassifiers.py \$1 \$2" > $HOME/bin/trainClassifiers
+echo "python `pwd`/analyzeScans.py \$1 \$2" > $HOME/bin/analyzeScans
+echo "python `pwd`/verifyExperiments.py \$1 \$2" > $HOME/bin/verifyExperiments
+echo "python `pwd`/saveResults.py \$1 \$2" > $HOME/bin/saveResults
+echo "python `pwd`/tabulateResults.py \$1 \$2" > $HOME/bin/tabulateResults
+echo "python `pwd`/evaluateWindows.py \$1 \$2" > $HOME/bin/evaluateWindows
+chmod a+x $HOME/bin/*

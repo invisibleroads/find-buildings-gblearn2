@@ -1,0 +1,7 @@
+[parameters]
+classifier name = koraro 2006 NormalizedGrayscaleFeatureSet
+scan ratio = 2
+
+[koraro 2006 3 scanImages]
+image name = koraro 2006 3
+coverage fraction = 0.02

@@ -1,0 +1,139 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+
+
+
+[koraro 2007 2 0-10 5m 10range]
+probability name = koraro 2007 2 0-10 5
+maximum diameter in meters = 15
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 5m 7range]
+probability name = koraro 2007 2 0-10 5
+maximum diameter in meters = 12
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 5m 5range]
+probability name = koraro 2007 2 0-10 5
+maximum diameter in meters = 10
+minimum diameter in meters = 0
+
+
+
+[koraro 2007 2 0-10 10m 10range]
+probability name = koraro 2007 2 0-10 10
+maximum diameter in meters = 20
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 10m 7range]
+probability name = koraro 2007 2 0-10 10
+maximum diameter in meters = 17
+minimum diameter in meters = 3
+
+[koraro 2007 2 0-10 10m 5range]
+probability name = koraro 2007 2 0-10 10
+maximum diameter in meters = 15
+minimum diameter in meters = 5
+
+
+
+[koraro 2007 2 0-10 15m 10range]
+probability name = koraro 2007 2 0-10 15
+maximum diameter in meters = 25
+minimum diameter in meters = 5
+
+[koraro 2007 2 0-10 15m 7range]
+probability name = koraro 2007 2 0-10 15
+maximum diameter in meters = 22
+minimum diameter in meters = 8
+
+[koraro 2007 2 0-10 15m 5range]
+probability name = koraro 2007 2 0-10 15
+maximum diameter in meters = 20
+minimum diameter in meters = 10
+
+
+
+[koraro 2007 2 0-10 20m 10range]
+probability name = koraro 2007 2 0-10 20
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+
+[koraro 2007 2 0-10 20m 7range]
+probability name = koraro 2007 2 0-10 20
+maximum diameter in meters = 27
+minimum diameter in meters = 13
+
+[koraro 2007 2 0-10 20m 5range]
+probability name = koraro 2007 2 0-10 20
+maximum diameter in meters = 25
+minimum diameter in meters = 15
+
+
+
+[koraro 2007 2 0-10 25m 10range]
+probability name = koraro 2007 2 0-10 25
+maximum diameter in meters = 35
+minimum diameter in meters = 15
+
+[koraro 2007 2 0-10 25m 7range]
+probability name = koraro 2007 2 0-10 25
+maximum diameter in meters = 32
+minimum diameter in meters = 18
+
+[koraro 2007 2 0-10 25m 5range]
+probability name = koraro 2007 2 0-10 25
+maximum diameter in meters = 30
+minimum diameter in meters = 20
+
+
+
+[koraro 2007 2 0-10 30m 10range]
+probability name = koraro 2007 2 0-10 30
+maximum diameter in meters = 40
+minimum diameter in meters = 20
+
+[koraro 2007 2 0-10 30m 7range]
+probability name = koraro 2007 2 0-10 30
+maximum diameter in meters = 37
+minimum diameter in meters = 23
+
+[koraro 2007 2 0-10 30m 5range]
+probability name = koraro 2007 2 0-10 30
+maximum diameter in meters = 35
+minimum diameter in meters = 25
+
+
+
+[koraro 2007 2 0-10 35m 10range]
+probability name = koraro 2007 2 0-10 35
+maximum diameter in meters = 45
+minimum diameter in meters = 25
+
+[koraro 2007 2 0-10 35m 7range]
+probability name = koraro 2007 2 0-10 35
+maximum diameter in meters = 42
+minimum diameter in meters = 28
+
+[koraro 2007 2 0-10 35m 5range]
+probability name = koraro 2007 2 0-10 35
+maximum diameter in meters = 40
+minimum diameter in meters = 30
+
+
+
+[koraro 2007 2 0-10 40m 10range]
+probability name = koraro 2007 2 0-10 40
+maximum diameter in meters = 50
+minimum diameter in meters = 30
+
+[koraro 2007 2 0-10 40m 7range]
+probability name = koraro 2007 2 0-10 40
+maximum diameter in meters = 47
+minimum diameter in meters = 33
+
+[koraro 2007 2 0-10 40m 5range]
+probability name = koraro 2007 2 0-10 40
+maximum diameter in meters = 45
+minimum diameter in meters = 35

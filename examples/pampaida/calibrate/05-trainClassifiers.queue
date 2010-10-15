@@ -1,0 +1,38 @@
+[parameters]
+feature module name = feature_cnn
+ratio range = 2 3
+kernel range = 10 9 8 7 6 5 4 3 2
+which layer combination = 0
+boost count = 3
+classifier module name = classifier_cnn
+iteration count = 20
+hidden count = 20
+feature class name = NormalizedFiveStackedFeatureSet
+connection table0 path = FiveStackedFeatureSet0.csv
+connection table1 path = FiveStackedFeatureSet1.csv
+
+[10m_offset0_shift1pixel1_5bands]
+dataset name = 10m_offset0_shift1pixel1
+
+[20m_offset0_shift0pixel0_5bands]
+dataset name = 20m_offset0_shift0pixel0
+[20m_offset0_shift1pixel1_5bands]
+dataset name = 20m_offset0_shift1pixel1
+[20m_offset0_shift2pixel1_5bands]
+dataset name = 20m_offset0_shift2pixel1
+[20m_offset0_shift2pixel2_5bands]
+dataset name = 20m_offset0_shift2pixel2
+
+[30m_offset0_shift1pixel1_5bands]
+dataset name = 30m_offset0_shift1pixel1
+
+[40m_offset0_shift1pixel1_5bands]
+dataset name = 40m_offset0_shift1pixel1
+
+
+
+[20m_offset0_shift1pixel1_4bands]
+dataset name = 20m_offset0_shift1pixel1
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.csv
+connection table1 path = FourStackedFeatureSet1.csv

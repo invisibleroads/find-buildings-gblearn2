@@ -1,0 +1,34 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+
+[train0]
+image name = ruhiira 2003 e
+coverage offset = 0
+coverage fraction = 0.25
+
+[patch1]
+image name = ruhiira 2003 e
+coverage offset = 1
+coverage fraction = 0.25
+
+[patch2]
+image name = ruhiira 2003 e
+coverage offset = 2
+coverage fraction = 0.25
+
+[patch3]
+image name = ruhiira 2003 e
+coverage offset = 3
+coverage fraction = 0.25
+
+[patch4]
+image name = ruhiira 2003 sw
+coverage offset = 0
+coverage fraction = 0.5
+
+[patch5]
+image name = ruhiira 2003 sw
+coverage offset = 1
+coverage fraction = 0.5

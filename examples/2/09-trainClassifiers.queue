@@ -1,0 +1,16 @@
+[parameters]
+feature module name = feature_cnn
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+which layer combination = 0
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+hidden count = 20
+iteration count = 3
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = files/FourStackedFeatureSet0.map
+connection table1 path = files/FourStackedFeatureSet1.map
+
+[ruhiira 2003 patched]
+dataset name = ruhiira 2003 patched

@@ -1,0 +1,24 @@
+[parameters]
+region name = ruhiira 2007 mv 0-10
+scan ratio = 2
+
+[ruhiira 2007 100]
+classifier name = ruhiira 2003 100
+
+[ruhiira 2007 1000]
+classifier name = ruhiira 2003 1000
+
+[ruhiira 2007 10000]
+classifier name = ruhiira 2003 10000
+
+[ruhiira 2007 100000]
+classifier name = ruhiira 2003 100000
+
+[ruhiira 2007 500]
+classifier name = ruhiira 2003 500
+
+[ruhiira 2007 5000]
+classifier name = ruhiira 2003 5000
+
+[ruhiira 2007 50000]
+classifier name = ruhiira 2003 50000

@@ -1,0 +1,16 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+
+[train1]
+image name = koraro 2006 3
+
+[train2]
+image name = koraro 2006 4
+
+[train3]
+image name = koraro 2006 5
+
+[train4]
+image name = koraro 2006 6

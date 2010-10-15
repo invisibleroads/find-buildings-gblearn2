@@ -1,0 +1,22 @@
+[parameters]
+path = ../../../images/Mbola
+
+[image]
+multispectral image = 2007/Imagery/Orthorectified/07JUL03083053-M2AS_R1C1-005630491010_01_P001.TIF
+panchromatic image = 2007/Imagery/Orthorectified/07JUL03083053-P2AS_R1C1-005630491010_01_P001.TIF
+positive location = 2007/Features/Roofs/MbolaPts.shp
+
+# [image2]
+# multispectral image = 2007/Imagery/Orthorectified/07JUL03083053-M2AS_R1C2-005630491010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07JUL03083053-P2AS_R1C2-005630491010_01_P001.TIF
+# positive location = 2007/Features/Roofs/MbolaPts.shp
+
+# [image3]
+# multispectral image = 2007/Imagery/Orthorectified/07JUL03083053-M2AS_R2C1-005630491010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07JUL03083053-P2AS_R2C1-005630491010_01_P001.TIF
+# positive location = 2007/Features/Roofs/MbolaPts.shp
+
+# [image4]
+# multispectral image = 2007/Imagery/Orthorectified/07JUL03083053-M2AS_R2C2-005630491010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07JUL03083053-P2AS_R2C2-005630491010_01_P001.TIF
+# positive location = 2007/Features/Roofs/MbolaPts.shp

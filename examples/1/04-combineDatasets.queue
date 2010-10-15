@@ -1,0 +1,18 @@
+[parameters]
+training size = 500
+test size = 100
+
+[image1245]
+window names = 
+    image1
+    image2
+    image4
+    image5
+
+[image1245positive]
+positive fraction = 0.5
+window names = 
+    image1
+    image2
+    image4
+    image5

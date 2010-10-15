@@ -1,0 +1,6 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[koraro 2006 3 scanRegions]
+probability name = koraro 2006 3 scanRegions

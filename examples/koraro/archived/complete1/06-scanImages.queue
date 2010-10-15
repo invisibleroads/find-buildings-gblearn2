@@ -1,0 +1,50 @@
+[parameters]
+scan ratio = 2
+
+[train1 test1]
+classifier name = train1
+image name = koraro 2007 2
+
+[train1 test2]
+classifier name = train1
+image name = koraro 2007 5
+
+[train1 test3]
+classifier name = train1
+image name = koraro 2007 7
+
+[train2 test1]
+classifier name = train2
+image name = koraro 2007 2
+
+[train2 test2]
+classifier name = train2
+image name = koraro 2007 5
+
+[train2 test3]
+classifier name = train2
+image name = koraro 2007 7
+
+[train3 test1]
+classifier name = train3
+image name = koraro 2007 2
+
+[train3 test2]
+classifier name = train3
+image name = koraro 2007 5
+
+[train3 test3]
+classifier name = train3
+image name = koraro 2007 7
+
+[train4 test1]
+classifier name = train4
+image name = koraro 2007 2
+
+[train4 test2]
+classifier name = train4
+image name = koraro 2007 5
+
+[train4 test3]
+classifier name = train4
+image name = koraro 2007 7

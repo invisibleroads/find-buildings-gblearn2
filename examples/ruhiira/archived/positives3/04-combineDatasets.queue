@@ -1,0 +1,52 @@
+[parameters]
+training size = 5000
+test size = 1000
+
+
+
+[shifted0 pixel0]
+window names = 
+    shifted0 pixel0
+
+[shifted1 pixel1]
+window names = 
+    shifted1 pixel1
+
+[shifted1 pixel2]
+window names = 
+    shifted1 pixel2
+
+[shifted2 pixel1]
+window names = 
+    shifted2 pixel1
+
+[shifted2 pixel2]
+window names = 
+    shifted2 pixel2
+
+
+
+[positiveHalf shifted0 pixel0]
+positive fraction = 0.5
+window names = 
+    shifted0 pixel0
+
+[positiveHalf shifted1 pixel1]
+positive fraction = 0.5
+window names = 
+    shifted1 pixel1
+
+[positiveHalf shifted1 pixel2]
+positive fraction = 0.5
+window names = 
+    shifted1 pixel2
+
+[positiveHalf shifted2 pixel1]
+positive fraction = 0.5
+window names = 
+    shifted2 pixel1
+
+[positiveHalf shifted2 pixel2]
+positive fraction = 0.5
+window names = 
+    shifted2 pixel2

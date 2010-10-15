@@ -1,0 +1,7 @@
+[parameters]
+path = ../../images/Ruhiira
+
+[image]
+multispectral image = 2007/Imagery/Orthorectified/07APR29085425-M2AS_R1C1-005613412010_01_P001.TIF
+panchromatic image = 2007/Imagery/Orthorectified/07APR29085425-P2AS_R1C1-005613412010_01_P001.TIF
+positive location = 2007/Features/Roofs/RuhiiraMV.shp

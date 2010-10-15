@@ -1,0 +1,10 @@
+[parameters]
+scan ratio = 2
+
+[train1 test1]
+classifier name = train1
+image name = ruhiira 2007 mv
+
+[train2 test1]
+classifier name = train2
+image name = ruhiira 2007 mv

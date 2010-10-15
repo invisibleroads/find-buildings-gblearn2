@@ -1,0 +1,26 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+# [koraro 2007 NormalizedGrayscaleFeatureSet]
+# probability name = koraro 2007 NormalizedGrayscaleFeatureSet
+
+# [koraro 2007 NormalizedFourStackedFeatureSet]
+# probability name = koraro 2007 NormalizedFourStackedFeatureSet
+
+[koraro 2007 FourStackedNormalizedFeatureSet]
+probability name = koraro 2007 FourStackedNormalizedFeatureSet
+
+# [koraro 2007 NormalizedFiveStackedFeatureSet]
+# probability name = koraro 2007 NormalizedFiveStackedFeatureSet
+
+# [koraro 2007 FiveStackedNormalizedFeatureSet]
+# probability name = koraro 2007 FiveStackedNormalizedFeatureSet
+
+# [koraro 2007 NormalizedYUVFiveStackedFeatureSet]
+# probability name = koraro 2007 NormalizedYUVFiveStackedFeatureSet
+
+# [koraro 2007 NormalizedSixStackedFeatureSet]
+# probability name = koraro 2007 NormalizedSixStackedFeatureSet

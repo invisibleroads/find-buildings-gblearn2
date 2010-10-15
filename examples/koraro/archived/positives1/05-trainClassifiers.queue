@@ -1,0 +1,31 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFiveStackedFeatureSet
+connection table0 path = FiveStackedFeatureSet0.map
+connection table1 path = FiveStackedFeatureSet1.map
+ratio range = 2 3
+kernel range = 10 9 8 7 6
+which layer combination = 0
+boost count = 3
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+iteration count = 20
+hidden count = 20
+
+[koraro 2006 6]
+dataset name = koraro 2006 6
+
+# [koraro 2006 6 positive 0.5]
+# dataset name = koraro 2006 6 positive 0.5
+
+[koraro 2006 6 shifted 1]
+dataset name = koraro 2006 6 shifted 1
+
+[koraro 2006 6 shifted 1 positive 0.5]
+dataset name = koraro 2006 6 shifted 1 positive 0.5
+
+[koraro 2006 6 shifted 2]
+dataset name = koraro 2006 6 shifted 2
+
+# [koraro 2006 6 shifted 2 positive 0.5]
+# dataset name = koraro 2006 6 shifted 2 positive 0.5

@@ -1,0 +1,6 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[ruhiira 2003 e 1-10]
+probability name = ruhiira 2003 e 1-10

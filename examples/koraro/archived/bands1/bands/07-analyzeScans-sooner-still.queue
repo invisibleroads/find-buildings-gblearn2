@@ -1,0 +1,24 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+# [ruhiira 2007 NormalizedGrayscaleFeatureSet]
+# probability name = ruhiira 2007 NormalizedGrayscaleFeatureSet
+
+# [ruhiira 2007 NormalizedFourStackedFeatureSet]
+# probability name = ruhiira 2007 NormalizedFourStackedFeatureSet
+
+[ruhiira 2007 FourStackedNormalizedFeatureSet]
+probability name = ruhiira 2007 FourStackedNormalizedFeatureSet
+
+# [ruhiira 2007 NormalizedFiveStackedFeatureSet]
+# probability name = ruhiira 2007 NormalizedFiveStackedFeatureSet
+
+# [ruhiira 2007 FiveStackedNormalizedFeatureSet]
+# probability name = ruhiira 2007 FiveStackedNormalizedFeatureSet
+
+# [ruhiira 2007 NormalizedYUVFiveStackedFeatureSet]
+# probability name = ruhiira 2007 NormalizedYUVFiveStackedFeatureSet
+
+# [ruhiira 2007 NormalizedSixStackedFeatureSet]
+# probability name = ruhiira 2007 NormalizedSixStackedFeatureSet

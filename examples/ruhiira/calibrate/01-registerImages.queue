@@ -1,0 +1,32 @@
+[parameters]
+path = ../../../images/Ruhiira
+
+[image]
+multispectral image = 2007/Imagery/Orthorectified/07APR29085425-M2AS_R1C1-005613412010_01_P001.TIF
+panchromatic image = 2007/Imagery/Orthorectified/07APR29085425-P2AS_R1C1-005613412010_01_P001.TIF
+positive location = 2007/Features/Roofs/RuhiiraMV.shp
+
+# [image2]
+# multispectral image = 2007/Imagery/Orthorectified/07APR29085425-M2AS_R1C2-005613412010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07APR29085425-P2AS_R1C2-005613412010_01_P001.TIF
+# positive location = 2007/Features/Roofs/RuhiiraMV.shp
+
+# [image3]
+# multispectral image = 2007/Imagery/Orthorectified/07APR29085425-M2AS_R2C1-005613412010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07APR29085425-P2AS_R2C1-005613412010_01_P001.TIF
+# positive location = 2007/Features/Roofs/RuhiiraMV.shp
+
+# [image4]
+# multispectral image = 2007/Imagery/Orthorectified/07APR29085425-M2AS_R2C2-005613412010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07APR29085425-P2AS_R2C2-005613412010_01_P001.TIF
+# positive location = 2007/Features/Roofs/RuhiiraMV.shp
+
+# [image5]
+# multispectral image = 2003/Imagery/Orthorectified/03OCT13081227-M2AS-005604702010_01_P002.TIF
+# panchromatic image = 2003/Imagery/Orthorectified/03OCT13081227-P2AS-005604702010_01_P002.TIF
+# positive location = 2003/Features/Roofs/RuhiiraE.shp
+
+# [image6]
+# multispectral image = 2003/Imagery/Orthorectified/03JUN22080921-M2AS-005604702010_01_P001.TIF
+# panchromatic image = 2003/Imagery/Orthorectified/03JUN22080921-P2AS-005604702010_01_P001.TIF
+# positive location = 2003/Features/Roofs/RuhiiraSW.shp

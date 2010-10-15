@@ -1,0 +1,28 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+image name = image
+
+[image1]
+coverage fraction = 0.01
+coverage offset = 0
+
+[image2]
+coverage fraction = 0.01
+coverage offset = 2
+
+[image3]
+coverage fraction = 0.002
+coverage offset = 4
+
+[image4]
+multispectral region frames = 
+     800 3600 1000 4100
+    2500 3600 2700 4100
+    1000 2000 1500 2500
+    2000 2000 2500 2500
+    1000 4000 2500 4500
+
+[image5]
+region path = files/region.shp

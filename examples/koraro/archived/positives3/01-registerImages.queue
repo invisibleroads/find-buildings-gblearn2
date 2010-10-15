@@ -1,0 +1,47 @@
+[parameters]
+path = /mnt/windows/images/Koraro
+
+# [koraro 2005 1]
+# multispectral image = 2005/Imagery/Orthorectified/07NOV01082304-M2AS-005708539010_01_P001.tif
+# panchromatic image = 2005/Imagery/Orthorectified/07NOV01082304-P2AS-005708539010_01_P001.tif
+# positive location = 2005/Features/Roofs/KoraroCell1Roofs.shp
+
+[koraro 2006 3]
+multispectral image = 2006/Cell3/Imagery/Orthorectified/06OCT01081356-M2AS-005708539030_01_P001.tif
+panchromatic image = 2006/Cell3/Imagery/Orthorectified/06OCT01081355-P2AS-005708539030_01_P001.tif
+positive location = 2006/Cell3/Features/Roofs/KoraroCell3Roofs.shp
+
+[koraro 2006 4]
+multispectral image = 2006/Cell4/Imagery/Orthorectified/06OCT01081353-M2AS-005708539040_01_P001.tif
+panchromatic image = 2006/Cell4/Imagery/Orthorectified/06OCT01081353-P2AS-005708539040_01_P001.tif
+positive location = 2006/Cell4/Features/Roofs/KoraroCell4Roofs.shp
+
+[koraro 2006 5]
+multispectral image = 2006/Cell5/Imagery/Orthorectified/06OCT01081353-M2AS-005708539050_01_P002.tif
+panchromatic image = 2006/Cell5/Imagery/Orthorectified/06OCT01081352-P2AS-005708539050_01_P002.tif
+positive location = 2006/Cell5/Features/Roofs/KoraroCell5Roofs.shp
+
+[koraro 2006 6]
+multispectral image = 2006/Cell6/Imagery/Orthorectified/06OCT01081351-M2AS-005708539060_01_P001.tif
+panchromatic image = 2006/Cell6/Imagery/Orthorectified/06OCT01081351-P2AS-005708539060_01_P001.tif
+positive location = 2006/Cell6/Features/Roofs/KoraroCell6Roofs.shp
+
+# [koraro 2007 1]
+# multispectral image = 2007/Cell1/Imagery/Orthorectified/07NOV01082304-M2AS-005708539010_01_P001.tif
+# panchromatic image = 2007/Cell1/Imagery/Orthorectified/07NOV01082304-P2AS-005708539010_01_P001.tif
+# positive location = 2007/Cell1/Features/Roofs/KoraroCell1Roofs.shp
+
+[koraro 2007 2]
+multispectral image = 2007/Cell2/Imagery/Orthorectified/07NOV01082302-M2AS-005708539020_01_P001.tif
+panchromatic image = 2007/Cell2/Imagery/Orthorectified/07NOV01082302-P2AS-005708539020_01_P001.tif
+positive location = 2007/Cell2/Features/Roofs/KoraroCell2Roofs.shp
+
+[koraro 2007 5]
+multispectral image = 2007/Cell5/Imagery/Orthorectified/07OCT09081721-M2AS-005708539050_01_P001.tif
+panchromatic image = 2007/Cell5/Imagery/Orthorectified/07OCT09081721-P2AS-005708539050_01_P001.tif
+positive location = 2007/Cell5/Features/Roofs/KoraroCell5Roofs.shp
+
+[koraro 2007 7]
+multispectral image = 2007/Cell7/Imagery/Orthorectified/07FEB04081747-M2AS-005708539070_01_P001.tif
+panchromatic image = 2007/Cell7/Imagery/Orthorectified/07FEB04081747-P2AS-005708539070_01_P001.tif
+positive location = 2007/Cell7/Features/Roofs/KoraroCell7Roofs.shp

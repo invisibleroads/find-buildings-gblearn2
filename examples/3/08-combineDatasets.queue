@@ -1,0 +1,16 @@
+[parameters]
+training size = 500
+test size = 100
+# positive fraction = 0.5
+
+[train2-4]
+window names = 
+    train1-4
+patch names =
+    train2-4
+
+[train2-4 auto]
+window names = 
+    train1-4
+patch names =
+    train2-4 auto

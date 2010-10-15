@@ -1,0 +1,28 @@
+[parameters]
+example count per region = 10
+shift count = 0
+multispectral pixel shift value = 1
+
+[koraro 2006 5 5]
+region name = koraro 2006 5 5
+
+[koraro 2006 5 10]
+region name = koraro 2006 5 10
+
+[koraro 2006 5 15]
+region name = koraro 2006 5 15
+
+[koraro 2006 5 20]
+region name = koraro 2006 5 20
+
+[koraro 2006 5 25]
+region name = koraro 2006 5 25
+
+[koraro 2006 5 30]
+region name = koraro 2006 5 30
+
+[koraro 2006 5 35]
+region name = koraro 2006 5 35
+
+[koraro 2006 5 40]
+region name = koraro 2006 5 40

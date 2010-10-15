@@ -1,0 +1,47 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+which layer combination = 0
+iteration count = 30
+hidden count = 20
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+
+
+
+[shifted0 pixel0]
+dataset name = shifted0 pixel0
+
+[shifted1 pixel1]
+dataset name = shifted1 pixel1
+
+[shifted2 pixel1]
+dataset name = shifted2 pixel1
+
+[shifted1 pixel2]
+dataset name = shifted1 pixel2
+
+[shifted2 pixel2]
+dataset name = shifted2 pixel2
+
+
+
+[positiveHalf shifted0 pixel0]
+dataset name = positiveHalf shifted0 pixel0
+
+[positiveHalf shifted1 pixel1]
+dataset name = positiveHalf shifted1 pixel1
+
+[positiveHalf shifted2 pixel1]
+dataset name = positiveHalf shifted2 pixel1
+
+[positiveHalf shifted1 pixel2]
+dataset name = positiveHalf shifted1 pixel2
+
+[positiveHalf shifted2 pixel2]
+dataset name = positiveHalf shifted2 pixel2

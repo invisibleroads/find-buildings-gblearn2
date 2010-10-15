@@ -1,0 +1,23 @@
+[parameters]
+example count per region = 10
+region name = ruhiira 2003 e
+shift count = 0
+multispectral pixel shift value = 1
+
+[ruhiira 2003 e 5]
+region name = ruhiira 2003 e 5
+
+[ruhiira 2003 e 10]
+region name = ruhiira 2003 e 10
+
+[ruhiira 2003 e 15]
+region name = ruhiira 2003 e 15
+
+[ruhiira 2003 e 20]
+region name = ruhiira 2003 e 20
+
+[ruhiira 2003 e 25]
+region name = ruhiira 2003 e 25
+
+[ruhiira 2003 e 30]
+region name = ruhiira 2003 e 30

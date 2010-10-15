@@ -1,0 +1,100 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+probability name = ruhiira 2007 mv 20 even revised
+
+
+
+[20 min0 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 0
+
+[20 min5 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 5
+
+[20 min10 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+
+[20 min15 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 15
+
+[20 min20 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 20
+
+[20 min25 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 25
+
+
+
+[20 min0 max25]
+maximum diameter in meters = 25
+minimum diameter in meters = 0
+
+[20 min5 max25]
+maximum diameter in meters = 25
+minimum diameter in meters = 5
+
+[20 min10 max25]
+maximum diameter in meters = 25
+minimum diameter in meters = 10
+
+[20 min15 max25]
+maximum diameter in meters = 25
+minimum diameter in meters = 15
+
+[20 min20 max25]
+maximum diameter in meters = 25
+minimum diameter in meters = 20
+
+
+
+[20 min0 max20]
+maximum diameter in meters = 20
+minimum diameter in meters = 0
+
+[20 min5 max20]
+maximum diameter in meters = 20
+minimum diameter in meters = 5
+
+[20 min10 max20]
+maximum diameter in meters = 20
+minimum diameter in meters = 10
+
+[20 min15 max20]
+maximum diameter in meters = 20
+minimum diameter in meters = 15
+
+
+
+[20 min0 max15]
+maximum diameter in meters = 15
+minimum diameter in meters = 0
+
+[20 min5 max15]
+maximum diameter in meters = 15
+minimum diameter in meters = 5
+
+[20 min10 max15]
+maximum diameter in meters = 15
+minimum diameter in meters = 10
+
+
+
+[20 min0 max10]
+maximum diameter in meters = 10
+minimum diameter in meters = 0
+
+[20 min5 max10]
+maximum diameter in meters = 10
+minimum diameter in meters = 5
+
+
+
+[20 min0 max5]
+maximum diameter in meters = 5
+minimum diameter in meters = 0

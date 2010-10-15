@@ -1,0 +1,24 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[ruhiira 2007 100]
+probability name = ruhiira 2007 100
+
+[ruhiira 2007 1000]
+probability name = ruhiira 2007 1000
+
+[ruhiira 2007 10000]
+probability name = ruhiira 2007 10000
+
+[ruhiira 2007 100000]
+probability name = ruhiira 2007 100000
+
+[ruhiira 2007 500]
+probability name = ruhiira 2007 500
+
+[ruhiira 2007 5000]
+probability name = ruhiira 2007 5000
+
+[ruhiira 2007 50000]
+probability name = ruhiira 2007 50000

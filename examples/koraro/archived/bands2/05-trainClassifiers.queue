@@ -1,0 +1,56 @@
+[parameters]
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+feature module name = feature_cnn
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+iteration count = 30
+hidden count = 20
+which layer combination = 25
+dataset name = train
+
+# [NormalizedGrayscaleFeatureSet]
+# feature class name = NormalizedGrayscaleFeatureSet
+# connection table0 path = GrayscaleFeatureSet0.map
+# connection table1 path = GrayscaleFeatureSet1.map
+
+[NormalizedFourStackedFeatureSet]
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+
+[FourStackedNormalizedFeatureSet]
+feature class name = FourStackedNormalizedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+
+# [NormalizedFiveStackedFeatureSet]
+# feature class name = NormalizedFiveStackedFeatureSet
+# connection table0 path = FiveStackedFeatureSet0.map
+# connection table1 path = FiveStackedFeatureSet1.map
+
+# [FiveStackedNormalizedFeatureSet]
+# feature class name = FiveStackedNormalizedFeatureSet
+# connection table0 path = FiveStackedFeatureSet0.map
+# connection table1 path = FiveStackedFeatureSet1.map
+
+# [NormalizedYUVFiveStackedFeatureSet]
+# feature class name = NormalizedYUVFiveStackedFeatureSet
+# connection table0 path = FiveStackedFeatureSet0.map
+# connection table1 path = FiveStackedFeatureSet1.map
+
+# [NormalizedSixStackedFeatureSet]
+# feature class name = NormalizedSixStackedFeatureSet
+# connection table0 path = SixStackedFeatureSet0.map
+# connection table1 path = SixStackedFeatureSet1.map
+
+[NormalizedFiveCroppedFeatureSet]
+feature class name = NormalizedFiveCroppedFeatureSet
+connection table0 path = FiveCropped0.map
+connection table1 path = FiveCropped1.map
+
+[FiveCroppedNormalizedFeatureSet]
+feature class name = FiveCroppedNormalizedFeatureSet
+connection table0 path = FiveCropped0.map
+connection table1 path = FiveCropped1.map

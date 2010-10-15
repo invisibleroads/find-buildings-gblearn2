@@ -1,0 +1,13 @@
+[parameters]
+example count per region = 10
+shift count = 0
+multispectral pixel shift value = 1
+
+# [koraro 2006 5 5]
+# region name = koraro 2006 5 5
+
+[koraro 2006 5 7]
+region name = koraro 2006 5 7
+
+[koraro 2006 5 13]
+region name = koraro 2006 5 13

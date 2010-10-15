@@ -1,0 +1,21 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[ruhiira 2007 mv 0-10 5 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 mv 0-10 5 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 mv 0-10 10 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 mv 0-10 10 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 mv 0-10 15 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 mv 0-10 15 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 mv 0-10 20 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 mv 0-10 20 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 mv 0-10 25 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 mv 0-10 25 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 mv 0-10 30 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 mv 0-10 30 NormalizedFiveStackedFeatureSet

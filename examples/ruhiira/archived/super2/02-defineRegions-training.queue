@@ -1,0 +1,18 @@
+[parameters]
+window length in meters = 15
+region length in windows = 6
+test fraction per region = 0.2
+image name = ruhiira 2003 e
+coverage fraction = 0.25
+
+[train0]
+coverage offset = 0
+
+[train1]
+coverage offset = 1
+
+[train2]
+coverage offset = 2
+
+[train3]
+coverage offset = 3

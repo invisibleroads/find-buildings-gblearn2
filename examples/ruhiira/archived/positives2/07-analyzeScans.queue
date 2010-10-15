@@ -1,0 +1,33 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[ruhiira 2003 e]
+probability name = ruhiira 2003 e
+
+[ruhiira 2003 e pixel1 shifted1]
+probability name = ruhiira 2003 e pixel1 shifted1
+
+[ruhiira 2003 e pixel1 shifted2]
+probability name = ruhiira 2003 e pixel1 shifted2
+
+[ruhiira 2003 e pixel2 shifted1]
+probability name = ruhiira 2003 e pixel2 shifted1
+
+[ruhiira 2003 e pixel2 shifted2]
+probability name = ruhiira 2003 e pixel2 shifted2
+
+[ruhiira 2003 e positiveHalf]
+probability name = ruhiira 2003 e positiveHalf
+
+[ruhiira 2003 e positiveHalf pixel1 shifted1]
+probability name = ruhiira 2003 e positiveHalf pixel1 shifted1
+
+[ruhiira 2003 e positiveHalf pixel1 shifted2]
+probability name = ruhiira 2003 e positiveHalf pixel1 shifted2
+
+[ruhiira 2003 e positiveHalf pixel2 shifted1]
+probability name = ruhiira 2003 e positiveHalf pixel2 shifted1
+
+[ruhiira 2003 e positiveHalf pixel2 shifted2]
+probability name = ruhiira 2003 e positiveHalf pixel2 shifted2

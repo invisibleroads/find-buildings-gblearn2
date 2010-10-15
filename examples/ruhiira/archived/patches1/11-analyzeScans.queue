@@ -1,0 +1,6 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[train3-4]
+probability name = train3-4

@@ -1,0 +1,35 @@
+[parameters]
+# positive fraction = 0.5
+window names = 
+    koraro 2006 3
+    koraro 2006 4
+    koraro 2006 5
+    koraro 2006 6
+
+[koraro 2006 100]
+training size = 100
+test size = 20
+
+[koraro 2006 1000]
+training size = 1000
+test size = 200
+
+[koraro 2006 10000]
+training size = 10000
+test size = 2000
+
+[koraro 2006 100000]
+training size = 100000
+test size = 20000
+
+[koraro 2006 500]
+training size = 500
+test size = 100
+
+[koraro 2006 5000]
+training size = 5000
+test size = 1000
+
+[koraro 2006 50000]
+training size = 50000
+test size = 10000

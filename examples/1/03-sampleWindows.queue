@@ -1,0 +1,16 @@
+[parameters]
+example count per region = 10
+shift count = 1
+multispectral pixel shift value = 2
+
+[image1]
+region name = image1
+
+[image2]
+region name = image2
+
+[image4]
+region name = image4
+
+[image5]
+region name = image5

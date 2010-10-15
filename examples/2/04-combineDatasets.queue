@@ -1,0 +1,18 @@
+[parameters]
+training size = 500
+test size = 100
+
+[ruhiira 2003]
+window names = 
+    ruhiira 2003 sw 0-100
+    ruhiira 2003 sw 2-100
+    ruhiira 2003 e manual frames
+    ruhiira 2003 e manual path
+
+[ruhiira 2003 positive 0.5]
+positive fraction = 0.5
+window names = 
+    ruhiira 2003 sw 0-100
+    ruhiira 2003 sw 2-100
+    ruhiira 2003 e manual frames
+    ruhiira 2003 e manual path

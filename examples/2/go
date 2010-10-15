@@ -1,0 +1,16 @@
+registerImages          01-registerImages.queue
+defineRegions           02-defineRegions.queue
+sampleWindows           03-sampleWindows.queue
+extractWindows          04-extractWindows.queue
+combineDatasets         04-combineDatasets.queue
+trainClassifiers        05-trainClassifiers.queue
+scanRegions             06-scanRegions.queue
+scanImages              06-scanImages.queue
+clusterProbabilities    07-clusterProbabilities.queue
+analyzeScans            07-analyzeScans.queue
+
+combineDatasets         08-combineDatasets.queue
+trainClassifiers        09-trainClassifiers.queue
+scanRegions             10-scanRegions.queue
+clusterProbabilities    11-clusterProbabilities.queue
+analyzeScans            11-analyzeScans.queue

@@ -1,0 +1,18 @@
+[parameters]
+region name = test
+scan ratio = 2
+
+[which24]
+classifier name = which24
+
+[which58]
+classifier name = which58
+
+[which70]
+classifier name = which70
+
+[which72]
+classifier name = which72
+
+[which73]
+classifier name = which73

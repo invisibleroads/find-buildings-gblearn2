@@ -1,0 +1,24 @@
+[parameters]
+region name = koraro 2007 5 0-10
+scan ratio = 2
+
+# [koraro 2007 NormalizedGrayscaleFeatureSet]
+# classifier name = koraro 2006 NormalizedGrayscaleFeatureSet
+
+# [koraro 2007 NormalizedFourStackedFeatureSet]
+# classifier name = koraro 2006 NormalizedFourStackedFeatureSet
+
+[koraro 2007 FourStackedNormalizedFeatureSet]
+classifier name = koraro 2006 FourStackedNormalizedFeatureSet
+
+# [koraro 2007 NormalizedFiveStackedFeatureSet]
+# classifier name = koraro 2006 NormalizedFiveStackedFeatureSet
+
+# [koraro 2007 FiveStackedNormalizedFeatureSet]
+# classifier name = koraro 2006 FiveStackedNormalizedFeatureSet
+
+# [koraro 2007 NormalizedYUVFiveStackedFeatureSet]
+# classifier name = koraro 2006 NormalizedYUVFiveStackedFeatureSet
+
+# [koraro 2007 NormalizedSixStackedFeatureSet]
+# classifier name = koraro 2006 NormalizedSixStackedFeatureSet

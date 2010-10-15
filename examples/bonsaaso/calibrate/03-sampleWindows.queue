@@ -1,0 +1,38 @@
+[parameters]
+example count per region = 10
+
+[10m_offset0_shift1pixel1]
+region name = 10m_offset0
+shift count = 1
+multispectral pixel shift value = 1
+
+[20m_offset0_shift0pixel0]
+region name = 20m_offset0
+shift count = 0
+multispectral pixel shift value = 0
+[20m_offset0_shift1pixel1]
+region name = 20m_offset0
+shift count = 1
+multispectral pixel shift value = 1
+[20m_offset0_shift1pixel2]
+region name = 20m_offset0
+shift count = 1
+multispectral pixel shift value = 2
+[20m_offset0_shift2pixel1]
+region name = 20m_offset0
+shift count = 2
+multispectral pixel shift value = 1
+[20m_offset0_shift2pixel2]
+region name = 20m_offset0
+shift count = 2
+multispectral pixel shift value = 2
+
+[30m_offset0_shift1pixel1]
+region name = 30m_offset0
+shift count = 1
+multispectral pixel shift value = 1
+
+[40m_offset0_shift1pixel1]
+region name = 40m_offset0
+shift count = 1
+multispectral pixel shift value = 1

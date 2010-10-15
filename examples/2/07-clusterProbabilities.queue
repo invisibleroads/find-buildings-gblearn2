@@ -1,0 +1,11 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+[ruhiira 2007 mv scanImages]
+probability name = ruhiira 2007 mv scanImages
+
+[ruhiira 2003 sw 3-500 scanRegions]
+probability name = ruhiira 2003 sw 3-500 scanRegions

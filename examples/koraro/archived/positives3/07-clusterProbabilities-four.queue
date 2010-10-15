@@ -1,0 +1,39 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 20
+minimum diameter in meters = 5
+evaluation radius in meters = 50
+
+
+
+[shifted0 pixel0 NormalizedFourStackedFeatureSet]
+probability name = shifted0 pixel0 NormalizedFourStackedFeatureSet
+
+[shifted1 pixel1 NormalizedFourStackedFeatureSet]
+probability name = shifted1 pixel1 NormalizedFourStackedFeatureSet
+
+[shifted1 pixel2 NormalizedFourStackedFeatureSet]
+probability name = shifted1 pixel2 NormalizedFourStackedFeatureSet
+
+[shifted2 pixel1 NormalizedFourStackedFeatureSet]
+probability name = shifted2 pixel1 NormalizedFourStackedFeatureSet
+
+[shifted2 pixel2 NormalizedFourStackedFeatureSet]
+probability name = shifted2 pixel2 NormalizedFourStackedFeatureSet
+
+
+
+[positiveHalf shifted0 pixel0 NormalizedFourStackedFeatureSet]
+probability name = positiveHalf shifted0 pixel0 NormalizedFourStackedFeatureSet
+
+[positiveHalf shifted1 pixel1 NormalizedFourStackedFeatureSet]
+probability name =  positiveHalf shifted1 pixel1 NormalizedFourStackedFeatureSet
+
+[positiveHalf shifted1 pixel2 NormalizedFourStackedFeatureSet]
+probability name =  positiveHalf shifted1 pixel2 NormalizedFourStackedFeatureSet
+
+[positiveHalf shifted2 pixel1 NormalizedFourStackedFeatureSet]
+probability name =  positiveHalf shifted2 pixel1 NormalizedFourStackedFeatureSet
+
+[positiveHalf shifted2 pixel2 NormalizedFourStackedFeatureSet]
+probability name =  positiveHalf shifted2 pixel2 NormalizedFourStackedFeatureSet

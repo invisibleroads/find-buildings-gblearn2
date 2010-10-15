@@ -1,0 +1,44 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+
+[train0]
+image name = koraro 2006 3
+coverage offset = 0
+coverage fraction = 0.5
+
+[patch1]
+image name = koraro 2006 3
+coverage offset = 1
+coverage fraction = 0.5
+
+[patch2]
+image name = koraro 2006 4
+coverage offset = 0
+coverage fraction = 0.5
+
+[patch3]
+image name = koraro 2006 4
+coverage offset = 1
+coverage fraction = 0.5
+
+[patch4]
+image name = koraro 2006 5
+coverage offset = 0
+coverage fraction = 0.5
+
+[patch5]
+image name = koraro 2006 5
+coverage offset = 1
+coverage fraction = 0.5
+
+[patch6]
+image name = koraro 2006 6
+coverage offset = 0
+coverage fraction = 0.5
+
+[patch7]
+image name = koraro 2006 6
+coverage offset = 1
+coverage fraction = 0.5

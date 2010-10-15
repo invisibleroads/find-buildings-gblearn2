@@ -1,0 +1,7 @@
+[parameters]
+path = ../../../images/Tiby
+
+[image]
+multispectral image = 2005/Imagery/Orthorectified/05DEC17110957-M2AS-005702571010_01_P001.TIF
+panchromatic image = 2005/Imagery/Orthorectified/05DEC17110957-P2AS-005702571010_01_P001.TIF
+positive location = 2005/Features/Roofs/TibyQB2005Pts.shp

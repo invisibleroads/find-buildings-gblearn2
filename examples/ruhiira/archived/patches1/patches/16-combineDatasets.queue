@@ -1,0 +1,12 @@
+[parameters]
+training size = 50000
+test size = 10000
+# positive fraction = 0.5
+
+[ruhiira 2003 patched 3]
+window names = 
+    ruhiira 2003 e 0-10
+patch names = 
+    ruhiira 2003 e 1-10
+    ruhiira 2003 e 2-10
+    ruhiira 2003 e 3-10

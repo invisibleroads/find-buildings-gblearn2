@@ -1,0 +1,33 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[ruhiira 2003 e NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e pixel1 shifted1 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e pixel1 shifted1 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e pixel1 shifted2 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e pixel1 shifted2 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e pixel2 shifted1 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e pixel2 shifted1 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e pixel2 shifted2 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e pixel2 shifted2 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e positiveHalf NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e positiveHalf NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e positiveHalf pixel1 shifted1 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e positiveHalf pixel1 shifted1 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e positiveHalf pixel1 shifted2 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e positiveHalf pixel1 shifted2 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e positiveHalf pixel2 shifted1 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e positiveHalf pixel2 shifted1 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2003 e positiveHalf pixel2 shifted2 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2003 e positiveHalf pixel2 shifted2 NormalizedFiveStackedFeatureSet

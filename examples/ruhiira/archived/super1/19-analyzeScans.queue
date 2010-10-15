@@ -1,0 +1,6 @@
+[parameters]
+minimum percent correct = 0.95
+
+[test3]
+probability name = test3
+patch count per region = 0

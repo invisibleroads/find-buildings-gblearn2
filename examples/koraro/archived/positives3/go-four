@@ -1,0 +1,4 @@
+trainClassifiers        05-trainClassifiers-four.queue
+scanRegions             06-scanRegions-four.queue
+analyzeScans            07-analyzeScans-four.queue
+clusterProbabilities    07-clusterProbabilities-four.queue

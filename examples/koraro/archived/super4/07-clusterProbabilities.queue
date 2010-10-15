@@ -1,0 +1,8 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+
+[test0]
+probability name = test0
+maximum diameter in meters = 20
+minimum diameter in meters = 15

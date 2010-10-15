@@ -1,0 +1,48 @@
+[parameters]
+training size = 50000
+test size = 10000
+
+[ruhiira 2003 e]
+window names =
+    ruhiira 2003 e
+
+[ruhiira 2003 e pixel1 shifted1]
+window names =
+    ruhiira 2003 e pixel1 shifted1
+
+[ruhiira 2003 e pixel1 shifted2]
+window names =
+    ruhiira 2003 e pixel1 shifted2
+
+[ruhiira 2003 e pixel2 shifted1]
+window names =
+    ruhiira 2003 e pixel2 shifted1
+
+[ruhiira 2003 e pixel2 shifted2]
+window names =
+    ruhiira 2003 e pixel2 shifted2
+
+[ruhiira 2003 e positiveHalf]
+positive fraction = 0.5
+window names =
+    ruhiira 2003 e
+
+[ruhiira 2003 e positiveHalf pixel1 shifted1]
+positive fraction = 0.5
+window names =
+    ruhiira 2003 e pixel1 shifted1
+
+[ruhiira 2003 e positiveHalf pixel1 shifted2]
+positive fraction = 0.5
+window names =
+    ruhiira 2003 e pixel1 shifted2
+
+[ruhiira 2003 e positiveHalf pixel2 shifted1]
+positive fraction = 0.5
+window names =
+    ruhiira 2003 e pixel2 shifted1
+
+[ruhiira 2003 e positiveHalf pixel2 shifted2]
+positive fraction = 0.5
+window names =
+    ruhiira 2003 e pixel2 shifted2

@@ -1,0 +1,7 @@
+[parameters]
+classifier name = train4
+scan ratio = 2
+image name = ruhiira 2007 mv
+
+[example with train4]
+coverage fraction = 0.1

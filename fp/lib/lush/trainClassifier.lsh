@@ -1,0 +1,88 @@
+; Extract arguments
+(defvar basePath                (nth  1 argv))
+(defvar trainingSamplePath      (nth  2 argv))
+(defvar trainingLabelPath       (nth  3 argv))
+(defvar testSamplePath          (nth  4 argv))
+(defvar testLabelPath           (nth  5 argv))
+(defvar layer0Length       (val (nth  6 argv)))
+(defvar layer0Ratio        (val (nth  7 argv)))
+(defvar layer0TablePath         (nth  8 argv))
+(defvar layer1Length       (val (nth  9 argv)))
+(defvar layer1Ratio        (val (nth 10 argv)))
+(defvar layer1TablePath         (nth 11 argv))
+(defvar hiddenCount        (val (nth 12 argv)))
+(defvar iterationCount     (val (nth 13 argv)))
+(defvar classifierPath          (nth 14 argv))
+
+; Add basePath
+(addpath basePath)
+; Load libraries    
+(load "net-spectral")
+(libload "gblearn2/data-sources")
+(libload "gblearn2/gb-trainers")
+(libload "gblearn2/gb-meters")
+
+; Define
+(de loadIntegerMatrix (matrixPath) (let* ((sourceMatrix (load-matrix matrixPath)) (targetMatrix (apply int-matrix (idx-dim sourceMatrix)))) (idx-copy sourceMatrix targetMatrix)))
+(de loadFloatMatrix (matrixPath) (let* ((sourceMatrix (load-matrix matrixPath)) (targetMatrix (apply float-matrix (idx-dim sourceMatrix)))) (idx-copy sourceMatrix targetMatrix)))
+
+; Load tables
+(defvar layer0Table (loadIntegerMatrix layer0TablePath))
+(defvar layer1Table (loadIntegerMatrix layer1TablePath))
+
+; Load sets
+(defvar trainingSamples (loadFloatMatrix trainingSamplePath))
+(defvar trainingLabels (loadIntegerMatrix trainingLabelPath))
+(defvar testSamples (loadFloatMatrix testSamplePath))
+(defvar testLabels (loadIntegerMatrix testLabelPath))
+
+(defvar trainingSampleCount (idx-dim trainingLabels 0))
+(defvar windowWidth (idx-dim trainingSamples -1))
+(defvar windowHeight (idx-dim trainingSamples -2))
+
+; Convert categories to vectors
+(defvar outputCount 2)
+(defvar labels (int-matrix outputCount))
+(defvar targets (float-matrix outputCount outputCount))
+(idx-f2dotc targets 1.5 targets)
+(targets ()() (- 1))
+(for (i 0 (1- outputCount)) (targets i i 1) (labels i i))
+
+; Define network
+(defvar networkParameterPack (new idx1-ddparam 0 trainingSampleCount))
+(defvar network (new idx3-supervised-module
+    (newConvolutionalNeuralNetwork 
+        windowHeight windowWidth
+        layer0Length layer0Length layer0Table layer0Ratio layer0Ratio
+        layer1Length layer1Length layer1Table layer1Ratio layer1Ratio
+        hiddenCount outputCount
+        networkParameterPack)
+    (new edist-cost labels 1 1 targets) 
+    (new max-classer labels)))
+(defvar thetrainer (new supervised-gradient network networkParameterPack))
+(defvar trainmeter (new classifier-meter))
+(defvar testmeter (new classifier-meter))
+(defvar trainingDatabase (new dsource-idx3fl trainingSamples trainingLabels))
+(defvar testingDatabase (new dsource-idx3fl testSamples testLabels))
+
+; Initialize network
+(==> :network:machine forget 1 2)
+(printf "computing diagonal hessian and learning rates\n")
+(==> thetrainer compute-diaghessian trainingDatabase 100 0.02)
+(printf "training with %d training samples and %d test samples\n" 
+    (==> trainingDatabase size) (==> testingDatabase size))
+
+; Train
+(repeat iterationCount
+    (==> thetrainer train trainingDatabase trainmeter 0.0001 0)
+    (printf "training: ") (flush) 
+    (==> thetrainer test  trainingDatabase trainmeter) (==> trainmeter display)
+    (printf " testing: ") (flush) 
+    (==> thetrainer test   testingDatabase  testmeter) (==>  testmeter display)  
+    (writing (concat classifierPath (sprintf "_%s_%s.net"
+        (apply sprintf (cons "TRAIN_AG%d_SZ%d_EN%f_PC%f_PE%f_PR%f" (==> trainmeter info)))
+        (apply sprintf (cons "TEST_AG%d_SZ%d_EN%f_PC%f_PE%f_PR%f" (==> testmeter info)))))
+        (bwrite-exact network)))
+
+; Exit
+(exit 1)

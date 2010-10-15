@@ -1,0 +1,37 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+
+[ruhiira 2003 sw 0-100]
+image name = ruhiira 2003 sw
+coverage fraction = 0.001
+coverage offset = 0
+
+[ruhiira 2003 sw 2-100]
+image name = ruhiira 2003 sw
+coverage fraction = 0.001
+coverage offset = 2
+
+[ruhiira 2003 sw 3-500]
+image name = ruhiira 2003 sw
+coverage fraction = 0.002
+coverage offset = 3
+
+[ruhiira 2003 sw 4-500]
+image name = ruhiira 2003 sw
+coverage fraction = 0.002
+coverage offset = 4
+
+[ruhiira 2003 e manual frames]
+image name = ruhiira 2003 e
+multispectral region frames = 
+     800 3600 1000 4100
+    2500 3600 2700 4100
+    1000 2000 1500 2500
+    2000 2000 2500 2500
+    1000 4000 2500 4500
+
+[ruhiira 2003 e manual path]
+image name = ruhiira 2003 e
+region path = files/region.shp

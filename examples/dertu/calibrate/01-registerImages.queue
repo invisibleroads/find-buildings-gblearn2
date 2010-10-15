@@ -1,0 +1,42 @@
+[parameters]
+path = ../../../images/Dertu
+
+# [image]
+# multispectral image = 2008/East/Imagery/Orthorectified/08FEB20081159-M2AS_R1C1-005683819020_01_P001.TIF
+# panchromatic image = 2008/East/Imagery/Orthorectified/08FEB20081158-P2AS_R1C1-005683819020_01_P001.TIF
+# positive location = 2008/East/Features/Roofs/
+
+# [image2]
+# multispectral image = 2008/East/Imagery/Orthorectified/08FEB20081159-M2AS_R1C2-005683819020_01_P001.TIF
+# panchromatic image = 2008/East/Imagery/Orthorectified/08FEB20081158-P2AS_R1C2-005683819020_01_P001.TIF
+# positive location = 2008/East/Features/Roofs/
+
+# [image3]
+# multispectral image = 2008/East/Imagery/Orthorectified/08FEB20081159-M2AS_R2C1-005683819020_01_P001.TIF
+# panchromatic image = 2008/East/Imagery/Orthorectified/08FEB20081158-P2AS_R2C1-005683819020_01_P001.TIF
+# positive location = 2008/East/Features/Roofs/
+
+# [image4]
+# multispectral image = 2008/East/Imagery/Orthorectified/08FEB20081159-M2AS_R2C2-005683819020_01_P001.TIF
+# panchromatic image = 2008/East/Imagery/Orthorectified/08FEB20081158-P2AS_R2C2-005683819020_01_P001.TIF
+# positive location = 2008/East/Features/Roofs/
+
+# [image5]
+# multispectral image = 2008/West/Imagery/Orthorectified/08FEB02081152-M2AS_R1C1-005683819010_01_P001.TIF
+# panchromatic image = 2008/West/Imagery/Orthorectified/08FEB02081152-P2AS_R1C1-005683819010_01_P001.TIF
+# positive location = 2008/West/Features/Roofs/
+
+# [image6]
+# multispectral image = 2008/West/Imagery/Orthorectified/08FEB02081152-M2AS_R1C2-005683819010_01_P001.TIF
+# panchromatic image = 2008/West/Imagery/Orthorectified/08FEB02081152-P2AS_R1C2-005683819010_01_P001.TIF
+# positive location = 2008/West/Features/Roofs/
+
+# [image7]
+# multispectral image = 2008/West/Imagery/Orthorectified/08FEB02081152-M2AS_R2C1-005683819010_01_P001.TIF
+# panchromatic image = 2008/West/Imagery/Orthorectified/08FEB02081152-P2AS_R2C1-005683819010_01_P001.TIF
+# positive location = 2008/West/Features/Roofs/
+
+# [image8]
+# multispectral image = 2008/West/Imagery/Orthorectified/08FEB02081152-M2AS_R2C2-005683819010_01_P001.TIF
+# panchromatic image = 2008/West/Imagery/Orthorectified/08FEB02081152-P2AS_R2C2-005683819010_01_P001.TIF
+# positive location = 2008/West/Features/Roofs/

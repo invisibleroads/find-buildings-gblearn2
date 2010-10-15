@@ -1,0 +1,12 @@
+[parameters]
+evaluation radius in meters list = 10 25 50
+evaluation length in meters list = 20 50 100
+
+[test before patch]
+probability name = test before patch
+
+# [test with selective patch]
+# probability name = test with selective patch
+
+# [test with full patch]
+# probability name = test with full patch

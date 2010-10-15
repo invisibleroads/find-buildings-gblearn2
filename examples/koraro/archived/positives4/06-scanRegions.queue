@@ -1,0 +1,30 @@
+[parameters]
+region name = test
+scan ratio = 2
+
+[train 0.1]
+classifier name = train 0.1
+
+[train 0.2]
+classifier name = train 0.2
+
+[train 0.3]
+classifier name = train 0.3
+
+[train 0.4]
+classifier name = train 0.4
+
+[train 0.5]
+classifier name = train 0.5
+
+[train 0.6]
+classifier name = train 0.6
+
+[train 0.7]
+classifier name = train 0.7
+
+[train 0.8]
+classifier name = train 0.8
+
+[train 0.9]
+classifier name = train 0.9

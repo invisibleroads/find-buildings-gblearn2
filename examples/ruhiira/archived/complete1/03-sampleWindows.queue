@@ -1,0 +1,10 @@
+[parameters]
+example count per region = 20
+shift count = 0
+multispectral pixel shift value = 1
+
+[train1]
+region name = train1
+
+[train2]
+region name = train2

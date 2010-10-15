@@ -1,0 +1,36 @@
+[parameters]
+training size = 5000
+test size = 1000
+positive fraction = 0.25
+
+[koraro 2006 5 5 even revised]
+window names = 
+    koraro 2006 5 5
+
+[koraro 2006 5 10 even revised]
+window names = 
+    koraro 2006 5 10
+
+[koraro 2006 5 15 even revised]
+window names = 
+    koraro 2006 5 15
+
+[koraro 2006 5 20 even revised]
+window names = 
+    koraro 2006 5 20
+
+[koraro 2006 5 25 even revised]
+window names = 
+    koraro 2006 5 25
+
+[koraro 2006 5 30 even revised]
+window names = 
+    koraro 2006 5 30
+
+[koraro 2006 5 35 even revised]
+window names = 
+    koraro 2006 5 35
+
+[koraro 2006 5 40 even revised]
+window names = 
+    koraro 2006 5 40

@@ -1,0 +1,6 @@
+[parameters]
+region name = ruhiira 2003 sw 3-500
+scan ratio = 2
+
+[ruhiira 2003 sw 3-500 scanRegions]
+classifier name = NormalizedFiveCroppedFeatureSet

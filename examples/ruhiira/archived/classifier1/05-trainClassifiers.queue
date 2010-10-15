@@ -1,0 +1,256 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+iteration count = 30
+hidden count = 20
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+dataset name = train
+
+[which0]
+which layer combination = 0
+
+[which1]
+which layer combination = 1
+
+[which2]
+which layer combination = 2
+
+[which3]
+which layer combination = 3
+
+[which4]
+which layer combination = 4
+
+[which5]
+which layer combination = 5
+
+[which6]
+which layer combination = 6
+
+[which7]
+which layer combination = 7
+
+[which8]
+which layer combination = 8
+
+[which9]
+which layer combination = 9
+
+[which10]
+which layer combination = 10
+
+[which11]
+which layer combination = 11
+
+[which12]
+which layer combination = 12
+
+[which13]
+which layer combination = 13
+
+[which14]
+which layer combination = 14
+
+[which15]
+which layer combination = 15
+
+[which16]
+which layer combination = 16
+
+[which17]
+which layer combination = 17
+
+[which18]
+which layer combination = 18
+
+[which19]
+which layer combination = 19
+
+[which20]
+which layer combination = 20
+
+[which21]
+which layer combination = 21
+
+[which22]
+which layer combination = 22
+
+[which23]
+which layer combination = 23
+
+[which24]
+which layer combination = 24
+
+[which25]
+which layer combination = 25
+
+[which26]
+which layer combination = 26
+
+[which27]
+which layer combination = 27
+
+[which28]
+which layer combination = 28
+
+[which29]
+which layer combination = 29
+
+[which30]
+which layer combination = 30
+
+[which31]
+which layer combination = 31
+
+[which32]
+which layer combination = 32
+
+[which33]
+which layer combination = 33
+
+[which34]
+which layer combination = 34
+
+[which35]
+which layer combination = 35
+
+[which36]
+which layer combination = 36
+
+[which37]
+which layer combination = 37
+
+[which38]
+which layer combination = 38
+
+[which39]
+which layer combination = 39
+
+[which40]
+which layer combination = 40
+
+[which41]
+which layer combination = 41
+
+[which42]
+which layer combination = 42
+
+[which43]
+which layer combination = 43
+
+[which44]
+which layer combination = 44
+
+[which45]
+which layer combination = 45
+
+[which46]
+which layer combination = 46
+
+[which47]
+which layer combination = 47
+
+[which48]
+which layer combination = 48
+
+[which49]
+which layer combination = 49
+
+[which50]
+which layer combination = 50
+
+[which51]
+which layer combination = 51
+
+[which52]
+which layer combination = 52
+
+[which53]
+which layer combination = 53
+
+[which54]
+which layer combination = 54
+
+[which55]
+which layer combination = 55
+
+[which56]
+which layer combination = 56
+
+[which57]
+which layer combination = 57
+
+[which58]
+which layer combination = 58
+
+[which59]
+which layer combination = 59
+
+[which60]
+which layer combination = 60
+
+[which61]
+which layer combination = 61
+
+[which62]
+which layer combination = 62
+
+[which63]
+which layer combination = 63
+
+[which64]
+which layer combination = 64
+
+[which65]
+which layer combination = 65
+
+[which66]
+which layer combination = 66
+
+[which67]
+which layer combination = 67
+
+[which68]
+which layer combination = 68
+
+[which69]
+which layer combination = 69
+
+[which70]
+which layer combination = 70
+
+[which71]
+which layer combination = 71
+
+[which72]
+which layer combination = 72
+
+[which73]
+which layer combination = 73
+
+[which74]
+which layer combination = 74
+
+[which75]
+which layer combination = 75
+
+[which76]
+which layer combination = 76
+
+[which77]
+which layer combination = 77
+
+[which78]
+which layer combination = 78
+
+[which79]
+which layer combination = 79
+
+[which80]
+which layer combination = 80

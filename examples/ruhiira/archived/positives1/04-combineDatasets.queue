@@ -1,0 +1,30 @@
+[parameters]
+training size = 50000
+test size = 10000
+
+[ruhiira 2003 e]
+window names = 
+    ruhiira 2003 e
+
+[ruhiira 2003 e positive 0.5]
+positive fraction = 0.5
+window names = 
+    ruhiira 2003 e
+
+[ruhiira 2003 e shifted 1]
+window names = 
+    ruhiira 2003 e shifted 1
+
+[ruhiira 2003 e shifted 1 positive 0.5]
+positive fraction = 0.5
+window names = 
+    ruhiira 2003 e shifted 1
+
+[ruhiira 2003 e shifted 2]
+window names = 
+    ruhiira 2003 e shifted 2
+
+[ruhiira 2003 e shifted 2 positive 0.5]
+positive fraction = 0.5
+window names = 
+    ruhiira 2003 e shifted 2

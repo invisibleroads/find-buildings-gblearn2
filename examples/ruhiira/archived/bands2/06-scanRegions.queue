@@ -1,0 +1,27 @@
+[parameters]
+region name = test
+scan ratio = 2
+
+# [NormalizedGrayscaleFeatureSet]
+# classifier name = NormalizedGrayscaleFeatureSet
+
+[NormalizedFourStackedFeatureSet]
+classifier name = NormalizedFourStackedFeatureSet
+[FourStackedNormalizedFeatureSet]
+classifier name = FourStackedNormalizedFeatureSet
+
+# [NormalizedFiveStackedFeatureSet]
+# classifier name = NormalizedFiveStackedFeatureSet
+# [FiveStackedNormalizedFeatureSet]
+# classifier name = FiveStackedNormalizedFeatureSet
+
+[NormalizedFiveCroppedFeatureSet]
+classifier name = NormalizedFiveCroppedFeatureSet
+[FiveCroppedNormalizedFeatureSet]
+classifier name = FiveCroppedNormalizedFeatureSet
+
+# [NormalizedYUVFiveStackedFeatureSet]
+# classifier name = NormalizedYUVFiveStackedFeatureSet
+
+# [NormalizedSixStackedFeatureSet]
+# classifier name = NormalizedSixStackedFeatureSet

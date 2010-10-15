@@ -1,0 +1,7 @@
+[parameters]
+classifier name = train4
+scan ratio = 2
+image name = koraro 2007 2
+
+[example with train4]
+coverage fraction = 0.1

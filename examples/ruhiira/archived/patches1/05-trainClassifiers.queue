@@ -1,0 +1,19 @@
+[parameters]
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+feature module name = feature_cnn
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+iteration count = 30
+hidden count = 20
+which layer combination = 4
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+
+[train]
+dataset name = train
+
+[train1-4]
+dataset name = train1-4

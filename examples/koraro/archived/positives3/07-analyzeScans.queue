@@ -1,0 +1,37 @@
+[parameters]
+patch count per region = 0
+minimum percent correct = 0.95
+
+
+
+[shifted0 pixel0]
+probability name = shifted0 pixel0
+
+[shifted1 pixel1]
+probability name = shifted1 pixel1
+
+[shifted1 pixel2]
+probability name = shifted1 pixel2
+
+[shifted2 pixel1]
+probability name = shifted2 pixel1
+
+[shifted2 pixel2]
+probability name = shifted2 pixel2
+
+
+
+[positiveHalf shifted0 pixel0]
+probability name = positiveHalf shifted0 pixel0
+
+[positiveHalf shifted1 pixel1]
+probability name =  positiveHalf shifted1 pixel1
+
+[positiveHalf shifted1 pixel2]
+probability name =  positiveHalf shifted1 pixel2
+
+[positiveHalf shifted2 pixel1]
+probability name =  positiveHalf shifted2 pixel1
+
+[positiveHalf shifted2 pixel2]
+probability name =  positiveHalf shifted2 pixel2

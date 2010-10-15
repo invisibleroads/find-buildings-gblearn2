@@ -1,0 +1,12 @@
+[parameters]
+path = ../../../images/Potou
+
+[image]
+multispectral image = 2007/Imagery/Orthorectified/07JAN26121024-M2AS-005604726010_01_P002.TIF
+panchromatic image = 2007/Imagery/Orthorectified/07JAN26121024-P2AS-005604726010_01_P002.TIF
+positive location = 2007/Features/Roofs/PotouPts.shp
+
+# [image2]
+# multispectral image = 2006/Imagery/Orthorectified/06MAY24120756-M2AS-005604726010_01_P001.TIF
+# panchromatic image = 2006/Imagery/Orthorectified/06MAY24120755-P2AS-005604726010_01_P001.TIF
+# positive location = 2006/Features/Roofs/

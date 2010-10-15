@@ -1,0 +1,36 @@
+[parameters]
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+feature module name = feature_cnn
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+iteration count = 30
+hidden count = 20
+which layer combination = 25
+dataset name = train
+
+[NormalizedGrayscaleFeatureSet]
+feature class name = NormalizedGrayscaleFeatureSet
+connection table0 path = GrayscaleFeatureSet0.csv
+connection table1 path = GrayscaleFeatureSet1.csv
+
+[NormalizedFourStackedFeatureSet]
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.csv
+connection table1 path = FourStackedFeatureSet1.csv
+
+[NormalizedFourStackedFeatureSet smaller]
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0-4x12.csv
+connection table1 path = FourStackedFeatureSet1-12x16.csv
+
+[NormalizedFiveCroppedFeatureSet]
+feature class name = NormalizedFiveCroppedFeatureSet
+connection table0 path = FiveCropped0.csv
+connection table1 path = FiveCropped1.csv
+
+[NormalizedFiveCroppedFeatureSet smaller]
+feature class name = NormalizedFiveCroppedFeatureSet
+connection table0 path = FiveCropped0-5x15.csv
+connection table1 path = FiveCropped1-15x20.csv

@@ -1,0 +1,84 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+probability name = koraro 2007 2 0-10 20
+
+[koraro 2007 2 0-10 20 min0]
+minimum diameter in meters = 0
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min5]
+minimum diameter in meters = 5
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min10]
+minimum diameter in meters = 10
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min15]
+minimum diameter in meters = 15
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min20]
+minimum diameter in meters = 20
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min25]
+minimum diameter in meters = 25
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min30]
+minimum diameter in meters = 30
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min35]
+minimum diameter in meters = 35
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min40]
+minimum diameter in meters = 40
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min45]
+minimum diameter in meters = 45
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min50]
+minimum diameter in meters = 50
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min55]
+minimum diameter in meters = 55
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min60]
+minimum diameter in meters = 60
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min65]
+minimum diameter in meters = 65
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min70]
+minimum diameter in meters = 70
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min75]
+minimum diameter in meters = 75
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min80]
+minimum diameter in meters = 80
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min85]
+minimum diameter in meters = 85
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min90]
+minimum diameter in meters = 90
+maximum diameter in meters = 100
+
+[koraro 2007 2 0-10 20 min95]
+minimum diameter in meters = 95
+maximum diameter in meters = 100

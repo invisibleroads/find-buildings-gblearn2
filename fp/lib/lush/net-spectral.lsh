@@ -1,0 +1,27 @@
+(libload "gblearn2/net-cscscf")
+(libload "idx-int")
+
+(de newConvolutionalNeuralNetwork
+
+    ; Image dimensions
+    (imageHeight imageWidth
+    ; Input to first layer: kernel dimensions, connection table, subsampling ratios
+    kernel0Height kernel0Width layer0Table ratio0Height ratio0Width
+    ; First to second layer: kernel dimensions, connection table, subsampling ratios
+    kernel1Height kernel1Width layer1Table ratio1Height ratio1Width
+    ; Second to hidden to output layer
+    hiddenCount outputCount 
+    ; Network parameters
+    networkParameterPack)
+    
+    ; Extract layer2Count from layer1Table
+    (let ((layer2Count (+ (idx-i1max (select layer1Table 1 1)) 1)))
+        (new net-cscscf 
+            imageHeight imageWidth
+            kernel0Height kernel0Width layer0Table ratio0Height ratio0Width
+            kernel1Height kernel1Width layer1Table ratio1Height ratio1Width
+            (/ (- (/ (- imageHeight (1- kernel0Height)) ratio0Height) (1- kernel1Height)) ratio1Height)
+            (/ (- (/ (- imageWidth (1- kernel0Width)) ratio0Width) (1- kernel1Width)) ratio1Width)
+            (full-table layer2Count hiddenCount)
+            outputCount
+            networkParameterPack)))

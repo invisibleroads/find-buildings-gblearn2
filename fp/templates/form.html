@@ -1,0 +1,132 @@
+
+<html>
+
+<header>
+   <script src="http://october.mech.columbia.edu/files/jquery-1.3.2.min.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('input').addClass('normalFONT');
+            $('textarea').addClass('normalFONT');
+            $('select').addClass('normalFONT');
+            $('a').hover(
+                function () {this.className = this.className.replace('OFF', 'ON');}, 
+                function () {this.className = this.className.replace('ON', 'OFF');}
+            );
+            $('.tabOFF').hover( 
+                function() {this.className = this.className.replace('OFF', 'ON');}, 
+                function() {this.className = this.className.replace('ON', 'OFF');} 
+            ).click(function() {$('#' + this.id + '_').toggle();}); 
+            $('.tab_').hide(); 
+            $('#help_button').click(function () {$('.help').toggle();});
+
+        });
+    </script>
+
+
+<STYLE TYPE="text/css">
+<!--
+input, select {
+	position: absolute;
+	right: 0;
+}
+div {
+	position:relative;
+	width:400;left:50;top:50;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+p.secTitle {
+	font-size:10pt;
+	font-weight: bold;
+	text-indent: -1em;
+}
+-->
+</STYLE>
+
+<title>
+Satellite Image Processing
+</title>
+
+
+</header>
+
+
+<body>
+
+
+<div> 
+
+<form>
+
+<input type="button" value="Add Job to Queue" style="left:-5;"><p />
+
+&nbsp;<p />
+&nbsp;<p />
+
+<p class="secTitle">Register Images</p>
+path
+<select name="path">
+<option value="/mnt/windows/images/Ruhiira" selected="selected">/mnt/windows/images/Ruhiira</option>
+</select>
+
+<p />
+
+
+<!-- q2 -->
+<p class="secTitle">Define Regions</p>
+window length in meters <input type="text" name="windowlength" value="20" size="5" /><p />
+region length in windows <input type="text" name="windowlength" value="6" size="5" /><p />
+test fraction per region <input type="text" name="windowlength" value="0.2" size="5" /><p />
+
+<!-- q3 -->
+<p class="secTitle">Sample Windows</p>
+example count per region <input type="text" name="windowlength" value="10" size="5" /><p />
+shift count <input type="text" name="windowlength" value="1" size="5" /><p />
+multispectral pixel shift value <input type="text" name="windowlength" value="2" size="5" /><p />
+
+<!-- q4 -->
+<p class="secTitle">Combine Datasets</p>
+training size <input type="text" name="windowlength" value="2" size="5" /><p />
+test size <input type="text" name="windowlength" value="100" size="5" /><p />
+
+<!-- q5 -->
+<p class="secTitle">Train Classifiers</p>
+feature module name <input type="text" name="windowlength" value="feature_cnn" size="20" /><p />
+ratio range <input type="text" name="windowlength" value="2 3" size="5" /><p />
+kernel range <input type="text" name="windowlength" value="10 9 8 7 6 5 4 3 2" size="20" /><p />
+which layer combination <input type="text" name="windowlength" value="0" size="5" /><p />
+classifier module name <input type="text" name="windowlength" value="classifier_cnn" size="20" /><p />
+hidden count <input type="text" name="windowlength" value="20" size="5" /><p />
+iteration count <input type="text" name="windowlength" value="3" size="5" /><p />
+dataset name <input type="text" name="windowlength" value="ruhiira 2003" size="20" /><p />
+
+<!-- q6 -->
+<p class="secTitle">Scan Images</p>
+scan ratio dataset name <input type="text" name="windowlength" value="2" size="5" /><p />
+
+<!-- q7a--> 
+<p class="secTitle">Analyze Scans</p>
+patch count per region <input type="text" name="windowlength" value="10" size="5" /><p />
+minimum percent correct <input type="text" name="windowlength" value="0.95" size="5" /><p />
+
+<!-- q7c--> 
+<p class="secTitle">Cluster Probabilities</p>
+iteration count per burst <input type="text" name="windowlength" value="10" size="5" /><p />
+maximum diameter in meters <input type="text" name="windowlength" value="30" size="5" /><p />
+minimum diameter in meters <input type="text" name="windowlength" value="10" size="5" /><p />
+evaluation radius in meters <input type="text" name="windowlength" value="50" size="5" /><p />
+
+</form>
+
+&nbsp;<p />
+&nbsp;<p />
+&nbsp;<p />
+
+</div>
+
+</body>
+
+
+
+</html>

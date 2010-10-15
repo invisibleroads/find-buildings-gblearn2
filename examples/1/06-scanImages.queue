@@ -1,0 +1,7 @@
+[parameters]
+classifier name = image1245
+scan ratio = 2
+
+[image]
+image name = image
+coverage fraction = 0.02

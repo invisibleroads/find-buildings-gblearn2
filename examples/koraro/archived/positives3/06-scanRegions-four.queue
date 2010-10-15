@@ -1,0 +1,37 @@
+[parameters]
+region name = koraro 2007 2 0-20
+scan ratio = 2
+
+
+
+[shifted0 pixel0 NormalizedFourStackedFeatureSet]
+classifier name = shifted0 pixel0 NormalizedFourStackedFeatureSet
+
+[shifted1 pixel1 NormalizedFourStackedFeatureSet]
+classifier name = shifted1 pixel1 NormalizedFourStackedFeatureSet
+
+[shifted1 pixel2 NormalizedFourStackedFeatureSet]
+classifier name = shifted1 pixel2 NormalizedFourStackedFeatureSet
+
+[shifted2 pixel1 NormalizedFourStackedFeatureSet]
+classifier name = shifted2 pixel1 NormalizedFourStackedFeatureSet
+
+[shifted2 pixel2 NormalizedFourStackedFeatureSet]
+classifier name = shifted2 pixel2 NormalizedFourStackedFeatureSet
+
+
+
+[positiveHalf shifted0 pixel0 NormalizedFourStackedFeatureSet]
+classifier name = positiveHalf shifted0 pixel0 NormalizedFourStackedFeatureSet
+
+[positiveHalf shifted1 pixel1 NormalizedFourStackedFeatureSet]
+classifier name = positiveHalf shifted1 pixel1 NormalizedFourStackedFeatureSet
+
+[positiveHalf shifted1 pixel2 NormalizedFourStackedFeatureSet]
+classifier name = positiveHalf shifted1 pixel2 NormalizedFourStackedFeatureSet
+                                               
+[positiveHalf shifted2 pixel1 NormalizedFourStackedFeatureSet]
+classifier name = positiveHalf shifted2 pixel1 NormalizedFourStackedFeatureSet
+                                               
+[positiveHalf shifted2 pixel2 NormalizedFourStackedFeatureSet]
+classifier name = positiveHalf shifted2 pixel2 NormalizedFourStackedFeatureSet

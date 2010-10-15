@@ -1,0 +1,26 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+[ruhiira 2007 100 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 100 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 1000 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 1000 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 10000 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 10000 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 100000 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 100000 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 500 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 500 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 5000 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 5000 NormalizedFiveStackedFeatureSet
+
+[ruhiira 2007 50000 NormalizedFiveStackedFeatureSet]
+probability name = ruhiira 2007 50000 NormalizedFiveStackedFeatureSet

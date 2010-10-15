@@ -1,0 +1,7 @@
+mkdir $1
+cp *.queue $1
+cp *.map $1
+cp go $1
+cp restart $1
+cp verify $1
+cp duplicate $1

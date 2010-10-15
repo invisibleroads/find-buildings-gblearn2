@@ -1,0 +1,7 @@
+[parameters]
+window length in meters = 20
+
+[koraro 2006 3 partial positive]
+window label = 1
+window center path = /mnt/windows/images/Koraro/2006/Cell3/Features/Roofs/KoraroCell3Roofs.shp
+image name = koraro 2006 3

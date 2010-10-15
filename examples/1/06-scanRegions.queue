@@ -1,0 +1,6 @@
+[parameters]
+classifier name = image1245
+scan ratio = 2
+
+[image3]
+region name = image3

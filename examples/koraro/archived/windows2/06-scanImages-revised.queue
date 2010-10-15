@@ -1,0 +1,28 @@
+[parameters]
+image name = koraro 2007 2
+coverage fraction = 0.25
+scan ratio = 2
+
+[koraro 2007 2 0-10 5 even revised]
+classifier name = koraro 2006 5 5 even revised
+
+[koraro 2007 2 0-10 10 even revised]
+classifier name = koraro 2006 5 10 even revised
+
+[koraro 2007 2 0-10 15 even revised]
+classifier name = koraro 2006 5 15 even revised
+
+[koraro 2007 2 0-10 20 even revised]
+classifier name = koraro 2006 5 20 even revised
+
+[koraro 2007 2 0-10 25 even revised]
+classifier name = koraro 2006 5 25 even revised
+
+[koraro 2007 2 0-10 30 even revised]
+classifier name = koraro 2006 5 30 even revised
+
+[koraro 2007 2 0-10 35 even revised]
+classifier name = koraro 2006 5 35 even revised
+
+[koraro 2007 2 0-10 40 even revised]
+classifier name = koraro 2006 5 40 even revised

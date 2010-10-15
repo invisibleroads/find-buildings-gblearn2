@@ -1,0 +1,7 @@
+[parameters]
+scan ratio = 2
+classifier name = train1-4
+coverage fraction = 0.05
+
+[test before patch]
+image name = ruhiira 2007 mv

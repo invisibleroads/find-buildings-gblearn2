@@ -1,0 +1,33 @@
+[parameters]
+scan ratio = 2
+
+[10m_offset2_shift1pixel1_5bands]
+region name = 10m_offset2
+classifier name = 10m_offset0_shift1pixel1_5bands
+
+[20m_offset2_shift0pixel0_5bands]
+region name = 20m_offset2
+classifier name = 20m_offset0_shift0pixel0_5bands
+[20m_offset2_shift1pixel1_5bands]
+region name = 20m_offset2
+classifier name = 20m_offset0_shift1pixel1_5bands
+[20m_offset2_shift2pixel1_5bands]
+region name = 20m_offset2
+classifier name = 20m_offset0_shift2pixel1_5bands
+[20m_offset2_shift2pixel2_5bands]
+region name = 20m_offset2
+classifier name = 20m_offset0_shift2pixel2_5bands
+
+[30m_offset2_shift1pixel1_5bands]
+region name = 30m_offset2
+classifier name = 30m_offset0_shift1pixel1_5bands
+
+[40m_offset2_shift1pixel1_5bands]
+region name = 40m_offset2
+classifier name = 40m_offset0_shift1pixel1_5bands
+
+
+
+[20m_offset2_shift1pixel1_4bands]
+region name = 20m_offset2
+classifier name = 20m_offset0_shift1pixel1_4bands

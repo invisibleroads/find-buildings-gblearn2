@@ -1,0 +1,80 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+probability name = koraro 2007 2 0-10 20
+
+[koraro 2007 2 0-10 20 max5]
+maximum diameter in meters = 5
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max10]
+maximum diameter in meters = 10
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max15]
+maximum diameter in meters = 15
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max20]
+maximum diameter in meters = 20
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max25]
+maximum diameter in meters = 25
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max30]
+maximum diameter in meters = 30
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max35]
+maximum diameter in meters = 35
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max40]
+maximum diameter in meters = 40
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max45]
+maximum diameter in meters = 45
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max50]
+maximum diameter in meters = 50
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max55]
+maximum diameter in meters = 55
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max60]
+maximum diameter in meters = 60
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max65]
+maximum diameter in meters = 65
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max70]
+maximum diameter in meters = 70
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max75]
+maximum diameter in meters = 75
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max80]
+maximum diameter in meters = 80
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max85]
+maximum diameter in meters = 85
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max90]
+maximum diameter in meters = 90
+minimum diameter in meters = 0
+
+[koraro 2007 2 0-10 20 max95]
+maximum diameter in meters = 95
+minimum diameter in meters = 0

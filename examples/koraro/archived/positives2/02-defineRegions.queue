@@ -1,0 +1,12 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+
+[koraro 2006 6]
+image name = koraro 2006 6
+
+[koraro 2007 2 0-10]
+image name = koraro 2007 2
+coverage fraction = 0.1
+coverage offset = 0

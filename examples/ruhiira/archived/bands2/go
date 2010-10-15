@@ -1,0 +1,6 @@
+# registerImages          01-registerImages.queue
+# defineRegions           02-defineRegions.queue
+# sampleWindows           03-sampleWindows.queue
+# combineDatasets         04-combineDatasets.queue
+trainClassifiers        05-trainClassifiers.queue
+scanRegions             06-scanRegions.queue

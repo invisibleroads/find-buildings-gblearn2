@@ -1,0 +1,31 @@
+[parameters]
+training size = 50000
+test size = 10000
+
+[10m_offset0_shift1pixel1]
+window names = 
+    10m_offset0_shift1pixel1
+
+[20m_offset0_shift0pixel0]
+window names = 
+    20m_offset0_shift0pixel0
+[20m_offset0_shift1pixel1]
+window names = 
+    20m_offset0_shift1pixel1
+[20m_offset0_shift1pixel2]
+window names = 
+    20m_offset0_shift1pixel2
+[20m_offset0_shift2pixel1]
+window names = 
+    20m_offset0_shift2pixel1
+[20m_offset0_shift2pixel2]
+window names = 
+    20m_offset0_shift2pixel2
+
+[30m_offset0_shift1pixel1]
+window names = 
+    30m_offset0_shift1pixel1
+
+[40m_offset0_shift1pixel1]
+window names = 
+    40m_offset0_shift1pixel1

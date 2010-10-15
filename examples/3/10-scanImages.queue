@@ -1,0 +1,10 @@
+[parameters]
+image name = ruhiira 2007 mv
+coverage fraction = 0.01
+scan ratio = 2
+
+[test with selective patch]
+classifier name = train2-4
+
+[test with full patch]
+classifier name = train2-4 auto

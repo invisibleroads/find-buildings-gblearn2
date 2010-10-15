@@ -1,0 +1,7 @@
+[parameters]
+path = ../../../images/Mayange
+
+[image]
+multispectral image = 2006/Imagery/Orthorectified/06JUL02085134-M2AS-005554805010_01_P001.TIF
+panchromatic image = 2006/Imagery/Orthorectified/06JUL02085134-P2AS-005554805010_01_P001.TIF
+positive location = 2006/Features/Roofs/QBRoofs.shp

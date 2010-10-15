@@ -1,0 +1,9 @@
+[parameters]
+evaluation radius in meters list = 10 25 50
+evaluation length in meters list = 20 50 100
+
+[train1 test1]
+probability name = train1 test1
+
+[train2 test1]
+probability name = train2 test1

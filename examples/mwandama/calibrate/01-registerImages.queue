@@ -1,0 +1,22 @@
+[parameters]
+path = ../../../images/Mwandama
+
+[image]
+multispectral image = 2007/Imagery/Orthorectified/07NOV22081452-M2AS_R1C1-005630491020_01_P001.TIF
+panchromatic image = 2007/Imagery/Orthorectified/07NOV22081452-P2AS_R1C1-005630491020_01_P001.TIF
+positive location = 2007/Features/Roofs/MwandamaPts.shp
+
+# [image2]
+# multispectral image = 2007/Imagery/Orthorectified/07NOV22081452-M2AS_R1C2-005630491020_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07NOV22081452-P2AS_R1C2-005630491020_01_P001.TIF
+# positive location = 2007/Features/Roofs/MwandamaPts.shp
+
+# [image3]
+# multispectral image = 2007/Imagery/Orthorectified/07NOV22081452-M2AS_R2C1-005630491020_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07NOV22081452-P2AS_R2C1-005630491020_01_P001.TIF
+# positive location = 2007/Features/Roofs/MwandamaPts.shp
+
+# [image4]
+# multispectral image = 2007/Imagery/Orthorectified/07NOV22081452-M2AS_R2C2-005630491020_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07NOV22081452-P2AS_R2C2-005630491020_01_P001.TIF
+# positive location = 2007/Features/Roofs/MwandamaPts.shp

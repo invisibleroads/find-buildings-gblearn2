@@ -1,0 +1,48 @@
+[parameters]
+training size = 50000
+test size = 10000
+
+[koraro 2006 6]
+window names = 
+    koraro 2006 6
+
+[koraro 2006 6 pixel1 shifted1]
+window names = 
+    koraro 2006 6 pixel1 shifted1
+
+[koraro 2006 6 pixel1 shifted2]
+window names = 
+    koraro 2006 6 pixel1 shifted2
+
+[koraro 2006 6 pixel2 shifted1]
+window names = 
+    koraro 2006 6 pixel2 shifted1
+
+[koraro 2006 6 pixel2 shifted2]
+window names = 
+    koraro 2006 6 pixel2 shifted2
+
+[koraro 2006 6 positiveHalf]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6
+
+[koraro 2006 6 positiveHalf pixel1 shifted1]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6 pixel1 shifted1
+
+[koraro 2006 6 positiveHalf pixel1 shifted2]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6 pixel1 shifted2
+
+[koraro 2006 6 positiveHalf pixel2 shifted1]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6 pixel2 shifted1
+
+[koraro 2006 6 positiveHalf pixel2 shifted2]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6 pixel2 shifted2

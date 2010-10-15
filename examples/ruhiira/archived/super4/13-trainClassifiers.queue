@@ -1,0 +1,16 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFiveStackedFeatureSet
+connection table0 path = FiveStackedFeatureSet0.map
+connection table1 path = FiveStackedFeatureSet1.map
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+which layer combination = 0
+iteration count = 30
+hidden count = 20
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+
+[train2]
+dataset name = train2

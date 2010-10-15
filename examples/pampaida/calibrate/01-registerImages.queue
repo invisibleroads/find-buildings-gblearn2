@@ -1,0 +1,22 @@
+[parameters]
+path = ../../../images/Pampaida
+
+[image]
+multispectral image = 2007/Imagery/Orthorectified/07MAY04103005-M2AS_R1C1-005613830010_01_P001.TIF
+panchromatic image = 2007/Imagery/Orthorectified/07MAY04103005-P2AS_R1C1-005613830010_01_P001.TIF
+positive location = 2007/Features/Roofs/PampaidaPts.shp
+
+# [image2]
+# multispectral image = 2007/Imagery/Orthorectified/07MAY04103005-M2AS_R1C2-005613830010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07MAY04103005-P2AS_R1C2-005613830010_01_P001.TIF
+# positive location = 2007/Features/Roofs/PampaidaPts.shp
+
+# [image3]
+# multispectral image = 2007/Imagery/Orthorectified/07MAY04103005-M2AS_R2C1-005613830010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07MAY04103005-P2AS_R2C1-005613830010_01_P001.TIF
+# positive location = 2007/Features/Roofs/PampaidaPts.shp
+
+# [image4]
+# multispectral image = 2007/Imagery/Orthorectified/07MAY04103005-M2AS_R2C2-005613830010_01_P001.TIF
+# panchromatic image = 2007/Imagery/Orthorectified/07MAY04103005-P2AS_R2C2-005613830010_01_P001.TIF
+# positive location = 2007/Features/Roofs/PampaidaPts.shp

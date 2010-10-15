@@ -1,0 +1,246 @@
+[parameters]
+region name = test
+scan ratio = 2
+
+[which0]
+classifier name = which0
+
+[which1]
+classifier name = which1
+
+[which2]
+classifier name = which2
+
+[which3]
+classifier name = which3
+
+[which4]
+classifier name = which4
+
+[which5]
+classifier name = which5
+
+[which6]
+classifier name = which6
+
+[which7]
+classifier name = which7
+
+[which8]
+classifier name = which8
+
+[which9]
+classifier name = which9
+
+[which10]
+classifier name = which10
+
+[which11]
+classifier name = which11
+
+[which12]
+classifier name = which12
+
+[which13]
+classifier name = which13
+
+[which14]
+classifier name = which14
+
+[which15]
+classifier name = which15
+
+[which16]
+classifier name = which16
+
+[which17]
+classifier name = which17
+
+[which18]
+classifier name = which18
+
+[which19]
+classifier name = which19
+
+[which20]
+classifier name = which20
+
+[which21]
+classifier name = which21
+
+[which22]
+classifier name = which22
+
+[which23]
+classifier name = which23
+
+[which24]
+classifier name = which24
+
+[which25]
+classifier name = which25
+
+[which26]
+classifier name = which26
+
+[which27]
+classifier name = which27
+
+[which28]
+classifier name = which28
+
+[which29]
+classifier name = which29
+
+[which30]
+classifier name = which30
+
+[which31]
+classifier name = which31
+
+[which32]
+classifier name = which32
+
+[which33]
+classifier name = which33
+
+[which34]
+classifier name = which34
+
+[which35]
+classifier name = which35
+
+[which36]
+classifier name = which36
+
+[which37]
+classifier name = which37
+
+[which38]
+classifier name = which38
+
+[which39]
+classifier name = which39
+
+[which40]
+classifier name = which40
+
+[which41]
+classifier name = which41
+
+[which42]
+classifier name = which42
+
+[which43]
+classifier name = which43
+
+[which44]
+classifier name = which44
+
+[which45]
+classifier name = which45
+
+[which46]
+classifier name = which46
+
+[which47]
+classifier name = which47
+
+[which48]
+classifier name = which48
+
+[which49]
+classifier name = which49
+
+[which50]
+classifier name = which50
+
+[which51]
+classifier name = which51
+
+[which52]
+classifier name = which52
+
+[which53]
+classifier name = which53
+
+[which54]
+classifier name = which54
+
+[which55]
+classifier name = which55
+
+[which56]
+classifier name = which56
+
+[which57]
+classifier name = which57
+
+[which58]
+classifier name = which58
+
+[which59]
+classifier name = which59
+
+[which60]
+classifier name = which60
+
+[which61]
+classifier name = which61
+
+[which62]
+classifier name = which62
+
+[which63]
+classifier name = which63
+
+[which64]
+classifier name = which64
+
+[which65]
+classifier name = which65
+
+[which66]
+classifier name = which66
+
+[which67]
+classifier name = which67
+
+[which68]
+classifier name = which68
+
+[which69]
+classifier name = which69
+
+[which70]
+classifier name = which70
+
+[which71]
+classifier name = which71
+
+[which72]
+classifier name = which72
+
+[which73]
+classifier name = which73
+
+[which74]
+classifier name = which74
+
+[which75]
+classifier name = which75
+
+[which76]
+classifier name = which76
+
+[which77]
+classifier name = which77
+
+[which78]
+classifier name = which78
+
+[which79]
+classifier name = which79
+
+[which80]
+classifier name = which80

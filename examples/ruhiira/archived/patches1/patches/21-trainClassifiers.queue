@@ -1,0 +1,16 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFiveStackedFeatureSet
+connection table0 path = five0.map
+connection table1 path = five1.map
+ratio range = 2 3
+kernel range = 10 9 8 7 6
+which layer combination = 0
+boost count = 3
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+iteration count = 20
+hidden count = 20
+
+[ruhiira 2003 patched 4]
+dataset name = ruhiira 2003 patched 4

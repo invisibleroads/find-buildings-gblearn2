@@ -1,0 +1,9 @@
+# registerImages          01-registerImages.queue
+# defineRegions           02-defineRegions-training.queue
+# defineRegions           02-defineRegions-testing.queue
+# sampleWindows           03-sampleWindows.queue
+combineDatasets         04-combineDatasets-even.queue
+trainClassifiers        05-trainClassifiers-even.queue
+scanRegions             06-scanRegions-even.queue
+analyzeScans            07-analyzeScans-even.queue
+clusterProbabilities    07-clusterProbabilities-even.queue

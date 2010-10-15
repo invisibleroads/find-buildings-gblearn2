@@ -1,0 +1,33 @@
+[parameters]
+region name = koraro 2007 2 0-10
+scan ratio = 2
+
+[koraro 2006 6]
+classifier name = koraro 2006 6
+
+[koraro 2006 6 pixel1 shifted1]
+classifier name = koraro 2006 6 pixel1 shifted1
+
+[koraro 2006 6 pixel1 shifted2]
+classifier name = koraro 2006 6 pixel1 shifted2
+
+[koraro 2006 6 pixel2 shifted1]
+classifier name = koraro 2006 6 pixel2 shifted1
+
+[koraro 2006 6 pixel2 shifted2]
+classifier name = koraro 2006 6 pixel2 shifted2
+
+[koraro 2006 6 positiveHalf]
+classifier name = koraro 2006 6 positiveHalf
+
+[koraro 2006 6 positiveHalf pixel1 shifted1]
+classifier name = koraro 2006 6 positiveHalf pixel1 shifted1
+
+[koraro 2006 6 positiveHalf pixel1 shifted2]
+classifier name = koraro 2006 6 positiveHalf pixel1 shifted2
+
+[koraro 2006 6 positiveHalf pixel2 shifted1]
+classifier name = koraro 2006 6 positiveHalf pixel2 shifted1
+
+[koraro 2006 6 positiveHalf pixel2 shifted2]
+classifier name = koraro 2006 6 positiveHalf pixel2 shifted2

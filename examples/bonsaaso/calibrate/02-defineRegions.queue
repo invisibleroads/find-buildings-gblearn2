@@ -1,0 +1,33 @@
+[parameters]
+region length in windows = 6
+test fraction per region = 0.2
+coverage fraction = 0.2
+image name = image
+
+[10m_offset0]
+window length in meters = 10
+coverage offset = 0
+[10m_offset2]
+window length in meters = 10
+coverage offset = 2
+
+[20m_offset0]
+window length in meters = 20
+coverage offset = 0
+[20m_offset2]
+window length in meters = 20
+coverage offset = 2
+
+[30m_offset0]
+window length in meters = 30
+coverage offset = 0
+[30m_offset2]
+window length in meters = 30
+coverage offset = 2
+
+[40m_offset0]
+window length in meters = 40
+coverage offset = 0
+[40m_offset2]
+window length in meters = 40
+coverage offset = 2

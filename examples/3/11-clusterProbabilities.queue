@@ -1,0 +1,11 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+[test with selective patch]
+probability name = test with selective patch
+
+[test with full patch]
+probability name = test with full patch

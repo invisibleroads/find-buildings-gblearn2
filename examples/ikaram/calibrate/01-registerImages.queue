@@ -1,0 +1,22 @@
+[parameters]
+path = ../../../images/Ikaram
+
+[image]
+multispectral image = 2008/Imagery/Orthorectified/08JAN01102431-M2AS_R1C1-005613412030_01_P001.TIF
+panchromatic image = 2008/Imagery/Orthorectified/08JAN01102431-P2AS_R1C1-005613412030_01_P001.TIF
+positive location = 2008/Features/Roofs/IkaramPts.shp
+
+# [image2]
+# multispectral image = 2008/Imagery/Orthorectified/08JAN01102431-M2AS_R1C2-005613412030_01_P001.TIF
+# panchromatic image = 2008/Imagery/Orthorectified/08JAN01102431-P2AS_R1C2-005613412030_01_P001.TIF
+# positive location = 2008/Features/Roofs/IkaramPts.shp
+
+# [image3]
+# multispectral image = 2008/Imagery/Orthorectified/08JAN01102431-M2AS_R2C1-005613412030_01_P001.TIF
+# panchromatic image = 2008/Imagery/Orthorectified/08JAN01102431-P2AS_R2C1-005613412030_01_P001.TIF
+# positive location = 2008/Features/Roofs/IkaramPts.shp
+
+# [image4]
+# multispectral image = 2008/Imagery/Orthorectified/08JAN01102431-M2AS_R2C2-005613412030_01_P001.TIF
+# panchromatic image = 2008/Imagery/Orthorectified/08JAN01102431-P2AS_R2C2-005613412030_01_P001.TIF
+# positive location = 2008/Features/Roofs/IkaramPts.shp

@@ -1,0 +1,3 @@
+python utilities/reset.py
+python utilities/setup.py
+python utilities/registerImages.py -0 images.queue

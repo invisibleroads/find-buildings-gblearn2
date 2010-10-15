@@ -1,0 +1,10 @@
+[parameters]
+training size = 50000
+test size = 10000
+# positive fraction = 0.5
+
+[koraro 2006 patched 1]
+window names = 
+    koraro 2006 6 0-10
+patch names = 
+    koraro 2006 6 1-10

@@ -1,0 +1,14 @@
+[parameters]
+training size = 500
+test size = 100
+# positive fraction = 0.5
+
+[ruhiira 2003 patched]
+window names = 
+    ruhiira 2003 sw 0-100
+    ruhiira 2003 sw 2-100
+    ruhiira 2003 e manual frames
+    ruhiira 2003 e manual path
+patch names = 
+    ruhiira 2003 sw 3-500 scanRegions
+    ruhiira 2003 sw 3-500 scanRegions auto

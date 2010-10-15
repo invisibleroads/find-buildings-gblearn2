@@ -1,0 +1,11 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 25
+minimum diameter in meters = 15
+evaluation radius in meters = 100
+
+[train1 test1]
+probability name = train1 test1
+
+[train2 test1]
+probability name = train2 test1

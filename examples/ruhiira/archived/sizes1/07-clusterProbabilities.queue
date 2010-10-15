@@ -1,0 +1,26 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+[ruhiira 2007 100]
+probability name = ruhiira 2007 100
+
+[ruhiira 2007 1000]
+probability name = ruhiira 2007 1000
+
+[ruhiira 2007 10000]
+probability name = ruhiira 2007 10000
+
+[ruhiira 2007 100000]
+probability name = ruhiira 2007 100000
+
+[ruhiira 2007 500]
+probability name = ruhiira 2007 500
+
+[ruhiira 2007 5000]
+probability name = ruhiira 2007 5000
+
+[ruhiira 2007 50000]
+probability name = ruhiira 2007 50000

@@ -1,0 +1,16 @@
+[parameters]
+example count per region = 10
+shift count = 1
+multispectral pixel shift value = 2
+
+[ruhiira 2003 sw 0-100]
+region name = ruhiira 2003 sw 0-100
+
+[ruhiira 2003 sw 2-100]
+region name = ruhiira 2003 sw 2-100
+
+[ruhiira 2003 e manual frames]
+region name = ruhiira 2003 e manual frames
+
+[ruhiira 2003 e manual path]
+region name = ruhiira 2003 e manual path

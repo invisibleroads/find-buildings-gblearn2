@@ -1,0 +1,35 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+[koraro 2006 6]
+probability name = koraro 2006 6
+
+[koraro 2006 6 pixel1 shifted1]
+probability name = koraro 2006 6 pixel1 shifted1
+
+[koraro 2006 6 pixel1 shifted2]
+probability name = koraro 2006 6 pixel1 shifted2
+
+[koraro 2006 6 pixel2 shifted1]
+probability name = koraro 2006 6 pixel2 shifted1
+
+[koraro 2006 6 pixel2 shifted2]
+probability name = koraro 2006 6 pixel2 shifted2
+
+[koraro 2006 6 positiveHalf]
+probability name = koraro 2006 6 positiveHalf
+
+[koraro 2006 6 positiveHalf pixel1 shifted1]
+probability name = koraro 2006 6 positiveHalf pixel1 shifted1
+
+[koraro 2006 6 positiveHalf pixel1 shifted2]
+probability name = koraro 2006 6 positiveHalf pixel1 shifted2
+
+[koraro 2006 6 positiveHalf pixel2 shifted1]
+probability name = koraro 2006 6 positiveHalf pixel2 shifted1
+
+[koraro 2006 6 positiveHalf pixel2 shifted2]
+probability name = koraro 2006 6 positiveHalf pixel2 shifted2

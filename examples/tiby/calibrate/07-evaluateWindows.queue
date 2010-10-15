@@ -1,0 +1,25 @@
+[parameters]
+evaluation radius in meters list = 50
+
+[10m_offset2_shift1pixel1_5bands]
+probability name = 10m_offset2_shift1pixel1_5bands
+
+[20m_offset2_shift0pixel0_5bands]
+probability name = 20m_offset2_shift0pixel0_5bands
+[20m_offset2_shift1pixel1_5bands]
+probability name = 20m_offset2_shift1pixel1_5bands
+[20m_offset2_shift2pixel1_5bands]
+probability name = 20m_offset2_shift2pixel1_5bands
+[20m_offset2_shift2pixel2_5bands]
+probability name = 20m_offset2_shift2pixel2_5bands
+
+[30m_offset2_shift1pixel1_5bands]
+probability name = 30m_offset2_shift1pixel1_5bands
+
+[40m_offset2_shift1pixel1_5bands]
+probability name = 40m_offset2_shift1pixel1_5bands
+
+
+
+[20m_offset2_shift1pixel1_4bands]
+probability name = 20m_offset2_shift1pixel1_4bands

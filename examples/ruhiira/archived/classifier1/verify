@@ -1,0 +1,3 @@
+rm -Rf test
+verifyExperiments go
+rm -Rf test

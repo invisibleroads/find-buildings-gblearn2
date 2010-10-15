@@ -1,0 +1,29 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+maximum diameter in meters = 20
+minimum diameter in meters = 3
+
+[koraro 2007 2 0-10 5 even]
+probability name = koraro 2007 2 0-10 5 even
+
+[koraro 2007 2 0-10 10 even]
+probability name = koraro 2007 2 0-10 10 even
+
+[koraro 2007 2 0-10 15 even]
+probability name = koraro 2007 2 0-10 15 even
+
+[koraro 2007 2 0-10 20 even]
+probability name = koraro 2007 2 0-10 20 even
+
+[koraro 2007 2 0-10 25 even]
+probability name = koraro 2007 2 0-10 25 even
+
+[koraro 2007 2 0-10 30 even]
+probability name = koraro 2007 2 0-10 30 even
+
+[koraro 2007 2 0-10 35 even]
+probability name = koraro 2007 2 0-10 35 even
+
+[koraro 2007 2 0-10 40 even]
+probability name = koraro 2007 2 0-10 40 even

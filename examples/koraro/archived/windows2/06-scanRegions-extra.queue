@@ -1,0 +1,14 @@
+[parameters]
+scan ratio = 2
+
+# [koraro 2007 2 0-10 5]
+# region name = koraro 2007 2 0-10 5
+# classifier name = koraro 2006 5 5
+
+[koraro 2007 2 0-10 7]
+region name = koraro 2007 2 0-10 7
+classifier name = koraro 2006 5 7
+
+[koraro 2007 2 0-10 13]
+region name = koraro 2007 2 0-10 13
+classifier name = koraro 2006 5 13

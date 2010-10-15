@@ -1,0 +1,22 @@
+[parameters]
+image name = ruhiira 2007 mv
+scan ratio = 2
+coverage fraction = 0.25
+
+[ruhiira 2007 mv 5 even revised]
+classifier name = ruhiira 2003 e 5 even revised
+
+[ruhiira 2007 mv 10 even revised]
+classifier name = ruhiira 2003 e 10 even revised
+
+[ruhiira 2007 mv 15 even revised]
+classifier name = ruhiira 2003 e 15 even revised
+
+[ruhiira 2007 mv 20 even revised]
+classifier name = ruhiira 2003 e 20 even revised
+
+[ruhiira 2007 mv 25 even revised]
+classifier name = ruhiira 2003 e 25 even revised
+
+[ruhiira 2007 mv 30 even revised]
+classifier name = ruhiira 2003 e 30 even revised

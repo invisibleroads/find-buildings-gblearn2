@@ -1,0 +1,12 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[koraro 2007 2 0-10 5]
+probability name = koraro 2007 2 0-10 5
+
+[koraro 2007 2 0-10 7]
+probability name = koraro 2007 2 0-10 7
+
+[koraro 2007 2 0-10 13]
+probability name = koraro 2007 2 0-10 13

@@ -1,0 +1,29 @@
+[parameters]
+window length in meters = 20
+region length in windows = 6
+test fraction per region = 0.2
+coverage fraction = 0.1
+
+[ruhiira 2003 e 0-10]
+image name = ruhiira 2003 e
+coverage offset = 0
+
+[ruhiira 2003 e 1-10]
+image name = ruhiira 2003 e
+coverage offset = 1
+
+[ruhiira 2003 e 2-10]
+image name = ruhiira 2003 e
+coverage offset = 2
+
+[ruhiira 2003 e 3-10]
+image name = ruhiira 2003 e
+coverage offset = 3
+
+[ruhiira 2003 e 4-10]
+image name = ruhiira 2003 e
+coverage offset = 4
+
+[ruhiira 2007 mv 0-10]
+image name = ruhiira 2007 mv
+coverage offset = 0

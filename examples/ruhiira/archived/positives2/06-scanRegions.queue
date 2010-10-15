@@ -1,0 +1,33 @@
+[parameters]
+region name = ruhiira 2007 mv 0-10
+scan ratio = 2
+
+[ruhiira 2003 e]
+classifier name = ruhiira 2003 e
+
+[ruhiira 2003 e pixel1 shifted1]
+classifier name = ruhiira 2003 e pixel1 shifted1
+
+[ruhiira 2003 e pixel1 shifted2]
+classifier name = ruhiira 2003 e pixel1 shifted2
+
+[ruhiira 2003 e pixel2 shifted1]
+classifier name = ruhiira 2003 e pixel2 shifted1
+
+[ruhiira 2003 e pixel2 shifted2]
+classifier name = ruhiira 2003 e pixel2 shifted2
+
+[ruhiira 2003 e positiveHalf]
+classifier name = ruhiira 2003 e positiveHalf
+
+[ruhiira 2003 e positiveHalf pixel1 shifted1]
+classifier name = ruhiira 2003 e positiveHalf pixel1 shifted1
+
+[ruhiira 2003 e positiveHalf pixel1 shifted2]
+classifier name = ruhiira 2003 e positiveHalf pixel1 shifted2
+
+[ruhiira 2003 e positiveHalf pixel2 shifted1]
+classifier name = ruhiira 2003 e positiveHalf pixel2 shifted1
+
+[ruhiira 2003 e positiveHalf pixel2 shifted2]
+classifier name = ruhiira 2003 e positiveHalf pixel2 shifted2

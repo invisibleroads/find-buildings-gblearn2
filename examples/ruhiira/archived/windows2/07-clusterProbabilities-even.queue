@@ -1,0 +1,23 @@
+[parameters]
+iteration count per burst = 10
+evaluation radius in meters = 50
+maximum diameter in meters = 20
+minimum diameter in meters = 3
+
+[ruhiira 2007 mv 0-10 5 even]
+probability name = ruhiira 2007 mv 0-10 5 even
+
+[ruhiira 2007 mv 0-10 10 even]
+probability name = ruhiira 2007 mv 0-10 10 even
+
+[ruhiira 2007 mv 0-10 15 even]
+probability name = ruhiira 2007 mv 0-10 15 even
+
+[ruhiira 2007 mv 0-10 20 even]
+probability name = ruhiira 2007 mv 0-10 20 even
+
+[ruhiira 2007 mv 0-10 25 even]
+probability name = ruhiira 2007 mv 0-10 25 even
+
+[ruhiira 2007 mv 0-10 30 even]
+probability name = ruhiira 2007 mv 0-10 30 even

@@ -1,0 +1,7 @@
+[parameters]
+classifier name = NormalizedFiveCroppedFeatureSet
+scan ratio = 2
+
+[ruhiira 2007 mv scanImages]
+image name = ruhiira 2007 mv
+coverage fraction = 0.02

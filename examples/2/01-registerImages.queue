@@ -1,0 +1,17 @@
+[parameters]
+path = ../../images/Ruhiira
+
+[ruhiira 2003 sw]
+multispectral image = 2003/Imagery/Orthorectified/03JUN22080921-M2AS-005604702010_01_P001.tif
+panchromatic image = 2003/Imagery/Orthorectified/03JUN22080921-P2AS-005604702010_01_P001.tif
+positive location = 2003/Features/Roofs/RuhiiraSW.shp
+
+[ruhiira 2003 e]
+multispectral image = 2003/Imagery/Orthorectified/03OCT13081227-M2AS-005604702010_01_P002.tif
+panchromatic image = 2003/Imagery/Orthorectified/03OCT13081227-P2AS-005604702010_01_P002.tif
+positive location = 2003/Features/Roofs/RuhiiraE.shp
+
+[ruhiira 2007 mv]
+multispectral image = 2007/Imagery/Orthorectified/07APR29085425-M2AS-005613412010_01_P001.tif
+panchromatic image = 2007/Imagery/Orthorectified/07APR29085425-P2AS-005613412010_01_P001.tif
+positive location = 2007/Features/Roofs/RuhiiraMV.shp

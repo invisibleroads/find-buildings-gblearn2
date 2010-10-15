@@ -1,0 +1,9 @@
+[parameters]
+scan ratio = 2
+region name = test
+
+[patches selected]
+classifier name = train4-4
+
+[patches all]
+classifier name = train4-4 auto

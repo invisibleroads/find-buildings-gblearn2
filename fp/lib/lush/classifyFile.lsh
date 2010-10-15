@@ -1,0 +1,44 @@
+; Load arguments
+(defvar basePath (nth 1 argv))
+(defvar networkPath (nth 2 argv))
+(defvar payloadPath (nth 3 argv))
+
+; Add basePath
+(addpath basePath)
+; Load libraries
+(load "net-spectral")
+
+; Load network
+(reading networkPath (defvar thenet (bread))) 
+; Load payload
+(defvar payload (load-matrix payloadPath))
+
+; Define
+(defvar windowBandCount)
+(defvar windowHeight)
+(defvar windowWidth)
+(defvar output)
+(defvar desired)
+(defvar energy)
+(de classify (in)
+    (let* ((input (new idx3-ddstate windowBandCount windowHeight windowWidth)) (inputx :input:x))
+        (idx-copy in inputx)
+        (==> thenet fprop input output desired energy)))
+
+; For each window,
+(idx-bloop ((windowMatrix payload)) 
+    ; Get
+    (setq windowBandCount (idx-dim windowMatrix -3))
+    (setq windowHeight (idx-dim windowMatrix -2))
+    (setq windowWidth (idx-dim windowMatrix -1))
+    ; Define
+    (setq output (new class-state 2))
+    (setq desired (int-matrix))
+    (setq energy (new idx0-ddstate)) (:energy:dx 1.0) (:energy:ddx 0.0)
+    ; Show
+    (classify windowMatrix)
+    (printf "%f %f\n" :output:output-class :output:confidence)
+)
+
+; Return
+(exit 1)

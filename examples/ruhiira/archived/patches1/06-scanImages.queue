@@ -1,0 +1,6 @@
+[parameters]
+scan ratio = 2
+
+[all]
+image name = ruhiira 2007 mv
+classifier name = train

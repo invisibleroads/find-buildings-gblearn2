@@ -1,0 +1,37 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+which layer combination = 0
+boost count = 3
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+iteration count = 25
+hidden count = 20
+
+[koraro 2006 5 5 even revised]
+dataset name = koraro 2006 5 5 even revised
+
+[koraro 2006 5 10 even revised]
+dataset name = koraro 2006 5 10 even revised
+
+[koraro 2006 5 15 even revised]
+dataset name = koraro 2006 5 15 even revised
+
+[koraro 2006 5 20 even revised]
+dataset name = koraro 2006 5 20 even revised
+
+[koraro 2006 5 25 even revised]
+dataset name = koraro 2006 5 25 even revised
+
+[koraro 2006 5 30 even revised]
+dataset name = koraro 2006 5 30 even revised
+
+[koraro 2006 5 35 even revised]
+dataset name = koraro 2006 5 35 even revised
+
+[koraro 2006 5 40 even revised]
+dataset name = koraro 2006 5 40 even revised

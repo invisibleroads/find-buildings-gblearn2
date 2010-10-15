@@ -1,0 +1,34 @@
+[parameters]
+scan ratio = 2
+
+[koraro 2007 2 0-10 5 even]
+region name = koraro 2007 2 0-10 5
+classifier name = koraro 2006 5 5 even
+
+[koraro 2007 2 0-10 10 even]
+region name = koraro 2007 2 0-10 10
+classifier name = koraro 2006 5 10 even
+
+[koraro 2007 2 0-10 15 even]
+region name = koraro 2007 2 0-10 15
+classifier name = koraro 2006 5 15 even
+
+[koraro 2007 2 0-10 20 even]
+region name = koraro 2007 2 0-10 20
+classifier name = koraro 2006 5 20 even
+
+[koraro 2007 2 0-10 25 even]
+region name = koraro 2007 2 0-10 25
+classifier name = koraro 2006 5 25 even
+
+[koraro 2007 2 0-10 30 even]
+region name = koraro 2007 2 0-10 30
+classifier name = koraro 2006 5 30 even
+
+[koraro 2007 2 0-10 35 even]
+region name = koraro 2007 2 0-10 35
+classifier name = koraro 2006 5 35 even
+
+[koraro 2007 2 0-10 40 even]
+region name = koraro 2007 2 0-10 40
+classifier name = koraro 2006 5 40 even

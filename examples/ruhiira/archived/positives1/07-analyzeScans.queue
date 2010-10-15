@@ -1,0 +1,21 @@
+[parameters]
+patch count per region = 10
+minimum percent correct = 0.95
+
+[ruhiira 2003 e]
+probability name = ruhiira 2003 e
+
+[ruhiira 2003 e positive 0.5]
+probability name = ruhiira 2003 e positive 0.5
+
+[ruhiira 2003 e shifted 1]
+probability name = ruhiira 2003 e shifted 1
+
+[ruhiira 2003 e shifted 1 positive 0.5]
+probability name = ruhiira 2003 e shifted 1 positive 0.5
+
+[ruhiira 2003 e shifted 2]
+probability name = ruhiira 2003 e shifted 2
+
+[ruhiira 2003 e shifted 2 positive 0.5]
+probability name = ruhiira 2003 e shifted 2 positive 0.5

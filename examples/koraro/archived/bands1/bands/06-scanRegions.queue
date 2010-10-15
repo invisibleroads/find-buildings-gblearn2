@@ -1,0 +1,24 @@
+[parameters]
+region name = ruhiira 2007 mv 0-10
+scan ratio = 2
+
+# [ruhiira 2007 NormalizedGrayscaleFeatureSet]
+# classifier name = ruhiira 2003 NormalizedGrayscaleFeatureSet
+
+# [ruhiira 2007 NormalizedFourStackedFeatureSet]
+# classifier name = ruhiira 2003 NormalizedFourStackedFeatureSet
+
+[ruhiira 2007 FourStackedNormalizedFeatureSet]
+classifier name = ruhiira 2003 FourStackedNormalizedFeatureSet
+
+# [ruhiira 2007 NormalizedFiveStackedFeatureSet]
+# classifier name = ruhiira 2003 NormalizedFiveStackedFeatureSet
+
+# [ruhiira 2007 FiveStackedNormalizedFeatureSet]
+# classifier name = ruhiira 2003 FiveStackedNormalizedFeatureSet
+
+# [ruhiira 2007 NormalizedYUVFiveStackedFeatureSet]
+# classifier name = ruhiira 2003 NormalizedYUVFiveStackedFeatureSet
+
+# [ruhiira 2007 NormalizedSixStackedFeatureSet]
+# classifier name = ruhiira 2003 NormalizedSixStackedFeatureSet

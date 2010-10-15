@@ -1,0 +1,40 @@
+[parameters]
+feature module name = feature_cnn
+feature class name = NormalizedFourStackedFeatureSet
+connection table0 path = FourStackedFeatureSet0.map
+connection table1 path = FourStackedFeatureSet1.map
+ratio range = 2 3 1
+kernel range = 10 9 8 7 6 5 4 3 2 1
+iteration count = 30
+hidden count = 20
+classifier module name = classifier_cnn
+# classifier module name = classifier_cnn_boosted
+# boost count = 3
+which layer combination = 25
+
+[train 0.1]
+dataset name = train 0.1
+
+[train 0.2]
+dataset name = train 0.2
+
+[train 0.3]
+dataset name = train 0.3
+
+[train 0.4]
+dataset name = train 0.4
+
+[train 0.5]
+dataset name = train 0.5
+
+[train 0.6]
+dataset name = train 0.6
+
+[train 0.7]
+dataset name = train 0.7
+
+[train 0.8]
+dataset name = train 0.8
+
+[train 0.9]
+dataset name = train 0.9

@@ -1,0 +1,14 @@
+[parameters]
+iteration count per burst = 10
+maximum diameter in meters = 30
+minimum diameter in meters = 10
+evaluation radius in meters = 50
+
+# [koraro 2007 2 0-10 5]
+# probability name = koraro 2007 2 0-10 5
+
+[koraro 2007 2 0-10 7]
+probability name = koraro 2007 2 0-10 7
+
+[koraro 2007 2 0-10 13]
+probability name = koraro 2007 2 0-10 13

@@ -1,0 +1,6 @@
+[parameters]
+classifier name = koraro 2006 NormalizedGrayscaleFeatureSet
+scan ratio = 2
+
+[koraro 2006 3 scanRegions]
+region name = koraro 2006 3 partial

@@ -1,0 +1,30 @@
+[parameters]
+training size = 50000
+test size = 10000
+
+[koraro 2006 6]
+window names = 
+    koraro 2006 6
+
+[koraro 2006 6 positive 0.5]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6
+
+[koraro 2006 6 shifted 1]
+window names = 
+    koraro 2006 6 shifted 1
+
+[koraro 2006 6 shifted 1 positive 0.5]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6 shifted 1
+
+[koraro 2006 6 shifted 2]
+window names = 
+    koraro 2006 6 shifted 2
+
+[koraro 2006 6 shifted 2 positive 0.5]
+positive fraction = 0.5
+window names = 
+    koraro 2006 6 shifted 2

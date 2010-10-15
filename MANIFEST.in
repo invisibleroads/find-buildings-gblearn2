@@ -1,0 +1,3 @@
+include fp/config/deployment.ini_tmpl
+recursive-include fp/public *
+recursive-include fp/templates *

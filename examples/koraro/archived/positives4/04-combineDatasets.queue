@@ -1,0 +1,32 @@
+[parameters]
+training size = 2000
+test size = 500
+window names = 
+    train
+
+[train 0.1]
+positive fraction = 0.1
+
+[train 0.2]
+positive fraction = 0.2
+
+[train 0.3]
+positive fraction = 0.3
+
+[train 0.4]
+positive fraction = 0.4
+
+[train 0.5]
+positive fraction = 0.5
+
+[train 0.6]
+positive fraction = 0.6
+
+[train 0.7]
+positive fraction = 0.7
+
+[train 0.8]
+positive fraction = 0.8
+
+[train 0.9]
+positive fraction = 0.9
