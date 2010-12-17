@@ -196,7 +196,7 @@ def evaluateLocations(targetFolderPath, geoDiameter, actualLocationPath, predict
     rawPredictedLocations, spatialReference2 = point_store.load(predictedLocationPath)
     # Make sure the points have the same spatial reference
     if spatialReference1 != spatialReference2:
-        raise point_store.ShapeDataError(point_store.x_differentSpatialReferences)
+        raise point_store.ShapeDataError('Both locations must have the same spatial reference')
     spatialReference = spatialReference1
     # Compare
     heap, information = compareLocations(geoDiameter, rawActualLocations, rawPredictedLocations, regionGeoFrames)
