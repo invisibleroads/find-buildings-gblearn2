@@ -71,11 +71,11 @@ def saveShapefile(targetPath, regionFrames, multispectralImage, withPixelToGeoCo
     # Set wktGeometries
     wktGeometries = map(convertToWktGeometry, regionFrames)
     # Save
-    geometry_store.save(targetPath, wktGeometries, spatialReference)
+    geometry_store.save(store.replaceFileExtension(targetPath, 'shp'), spatialReference, wktGeometries)
 
 def loadShapefile(shapePath, multispectralImage, withGeoToPixelConversion=True):
     # Get wktGeometries
-    wktGeometries, spatialReference = geometry_store.load(shapePath)
+    spatialReference, wktGeometries = geometry_store.load(shapePath)[:2]
     # Make sure spatialReferences match
     # if spatialReference != multispectralImage.getSpatialReference():
         # raise IOError('Spatial references do not match:\n\t%s\n\t%s' % (shapePath, multispectralImage.getPath()))
