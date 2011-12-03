@@ -1,0 +1,48 @@
+release 4.4 of remote sensing system
+    wrap eblearn c++ in swig or ctypes for python
+    make plugin for crosscompute
+
+release 5.0 of remote sensing system
+    fix core code
+        separate probability name and path from patchInformation patches
+        change terminology from probability to scan
+        integrate new EBLearn cnn code from koray
+        add time to fp go
+        make classifier scan more efficiently
+            scan entire image instead of single window at a time
+            use map-matrix to load large matrices
+
+        implement randomized connection tables
+        implement workaround for imbalanced datasets (train with half positive dataset, continue training with artificial distribution)
+        implement custom neural network architecture to combine panchromatic and multispectral matrices
+        use all training data for experiments
+        add auto calibration experiments
+            auto determine convolutional kernel sizes and subsampling ratios
+            auto determine hidden count
+            auto determine classification threshold
+
+    implement web interface
+        add queueing web service
+        implement classifiers controller for training new classifiers
+            implement simple classifier training
+            implement simple classifier delete
+
+        implement analyze image form
+            prepare some classifiers and have them listed
+            fill in processing parameters for processing results
+
+        transfer dependency from information files to model database
+        rename probability to scan
+
+release 5.1 of remote sensing system
+    write tutorials and documentation for the remote sensing system
+    write prototype that can be distributed using rabbitMQ and pyAMQP
+
+release 5.2 of remote sensing system
+    try scanning every pixel with mout
+    use part of image for training and the rest of image for testing with cross-validation
+    use the ROC curve and area under curve to evaluate performance
+    implement cluster by local binary pattern texture
+    implement captcha for houses
+    set experiments for determining optimal kernel size, subsampling ratio, hidden units
+    think of a way to more efficiently map multispectral bands with panchromatic bands
