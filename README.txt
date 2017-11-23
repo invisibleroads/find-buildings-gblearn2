@@ -1,8 +1,9 @@
-This file is for you to describe the fp application. Typically
-you would include information such as the information below:
+This project has been deprecated. Please see the following link for the latest work:
+https://crosscompute.com/n/DAyIrX65pdVFri4rUfDntj2NqT219PoC
 
-Installation and Setup
-======================
+
+Find settlements using gblearn2
+===============================
 
 Install ``fp`` using easy_install::
 
