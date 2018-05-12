@@ -2,8 +2,8 @@ This project has been deprecated. Please see the following link for the latest w
 https://crosscompute.com/n/DAyIrX65pdVFri4rUfDntj2NqT219PoC
 
 
-Find settlements using gblearn2
-===============================
+Find buildings using gblearn2
+=============================
 
 Install ``fp`` using easy_install::
 
