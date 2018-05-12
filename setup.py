@@ -11,7 +11,7 @@ setup(
     description='',
     author='',
     author_email='',
-    url='https://github.com/invisibleroads/find-settlements-gblearn2',
+    url='https://github.com/invisibleroads/find-buildings-gblearn2',
     install_requires=[
         "Pylons>=0.9.7",
         "SQLAlchemy>=0.5",
